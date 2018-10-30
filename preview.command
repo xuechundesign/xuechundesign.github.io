@@ -3,7 +3,7 @@
 cd /Users/what_a_big_chuner/PortfolioWebsite/xuechundesign.github.io/;
 
 browser() {
-  sleep 1
+  sleep 2
   open http://localhost:4000
 
 }
