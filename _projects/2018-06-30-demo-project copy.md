@@ -1,6 +1,6 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
+title: 'UX Magazine Website Redesign Concepts'
+subtitle: '2017.11 - 2017.12'
 date: 2018-06-30 00:00:00
 featured_image: '/images/demo/demo-square.jpg'
 ---

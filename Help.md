@@ -53,3 +53,10 @@ xuechundesign.github.io git/master
 λ publish
 ```
 
+## Terminal 命令
+
+* `cd` change directory 去哪个目录，找不到的时候按 tab 就可以在里面选
+* `ls` list files 看我在的目录里有哪些文件
+* `open <filename>` 打开这个文件
+* `open .` 在 Finder 里打开这个目录
+ 
