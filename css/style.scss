@@ -150,6 +150,8 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_syntax";
 @import "_includes/_contact-form";
 
+@import "_includes/_utils";
+
 
 
 // - - - - - - - - - - Section styles
@@ -157,4 +159,12 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_portfolio";
 @import "_includes/_blog";
 
+// - - - - - - - - - - Hux Override
+
+.owl-carousel .owl-item img {
+  display: inline-block;
+}
+.gallery__item {
+  text-align:center;
+}
 

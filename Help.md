@@ -1,5 +1,20 @@
 # Help
 
+## HTML/CSS
+
+## 添加颜色
+
+```html
+<span style="color:red"> SomeText </span>
+```
+
+效果:
+
+<span style="color:red"> SomeText </span>
+
+---
+
+
 ## 如何进入 Terminal
 
 ### 方法一

@@ -1,0 +1,29 @@
+.intro-text {
+  // when device-width is greater than tablet
+	@include mq(tabletp) {
+    font-size: 25px
+  }
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 110px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
