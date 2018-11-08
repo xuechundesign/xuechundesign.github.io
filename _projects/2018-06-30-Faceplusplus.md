@@ -1,9 +1,14 @@
 ---
 title: 'Face++ Summer Internship'
-featured_image: '/images/facepp/cover.png'
+date: 2019-06-30 00:00:00
+featured_image: '/images/facepp/facepp_bg.png'
 ---
 
-![](/images/facepp/cover.png)
+<p class="intro-text"> 
+
+Megvii are developing competing facial revognition platforms powered by artificial intelligence.Its main product is Face++, a platform that can detect faces and confirm people's identities with a high degree of accuracy. Entry to all doors in the office is managed by Face++. </p>
+
+![](/images/facepp/facecover.png)
 
 ##### <span style="color:#00A4E2"> **Duration**</span>      
 2018.6 - 2018.8
@@ -28,7 +33,7 @@ You can throw in some horizontal rules too:
 
 #### <span style="color:#00A4E2">+ </span> BANNER DESIGN
 
-Here's parts of banner design which are created for face++, both used in web and mobile devices. 
+Here's parts of banner design which are created for face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
 
 
 <div class="gallery" data-columns="2">
@@ -40,14 +45,24 @@ Here's parts of banner design which are created for face++, both used in web and
 	<img src="/images/facepp/6faceID.png">
 </div>
 
-<div class="gallery" data-columns="6">
-	<img src="/images/facepp/1.2quick-guide.png">
-	<img src="/images/facepp/2.2face-detection.png">
-	<img src="/images/facepp/3.2face-merging.png">
-	<img src="/images/facepp/4.2face-searching.png">
-	<img src="/images/facepp/5.2face-merging-API.png">
-	<img src="/images/facepp/6.2faceID.png">
-</div>
+I worked iteratively with content, brand and marketing teams to identify core pieces of the site and create an extensible visual system that could be used both in web and mobile again and again.
+Here's parts of banner design which are created for face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
+
+
+<div class="gallery" data-columns="3">
+	<img src="/images/facepp/icon/icon1.png">
+   <img src="/images/facepp/icon/icon2.png">
+   	<img src="/images/facepp/icon/icon3.png">
+   	<img src="/images/facepp/icon/icon4.png">
+   	<img src="/images/facepp/icon/icon5.png">
+   	<img src="/images/facepp/icon/icon6.png">
+   	<img src="/images/facepp/icon/icon7.png">
+   	<img src="/images/facepp/icon/icon8.png">
+   	<img src="/images/facepp/icon/icon9.png">
+   	<img src="/images/facepp/icon/icon10.png"> 	<img src="/images/facepp/icon/icon11.png">
+   	<img src="/images/facepp/icon/icon12.png">
+   			
+	</div>
 
 Based on existing main dark color <span style="color:#000E2B">(#000E2B)</span> as background to add scientific but vivid style,in the meanwhile express the similar meaning for abstract business events.
 
