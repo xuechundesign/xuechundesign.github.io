@@ -1,6 +1,6 @@
 ---
 title: 'UX Magazine Website Redesign Concepts'
-subtitle: '2016.11 - 2017.12'
+subtitle: '2016.11 - 2016.12'
 date: 2016-06-30 00:00:00
 featured_image: '/images/magazine/magazine_bg.png'
 ---
