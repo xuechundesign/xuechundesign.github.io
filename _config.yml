@@ -1,5 +1,7 @@
 site: Sherry Wu
 
+future: true
+
 collections:
   pages:
     output: true
