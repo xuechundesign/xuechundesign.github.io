@@ -188,6 +188,7 @@ In case of some employees are unalble to attend in locale, as long as they click
 <div class="gallery" data-columns="4">
 
    <img src="/images/instrument/screenGallery/0.png">
+   <img src="/images/instrument/screenGallery/13.png">
 	<img src="/images/instrument/screenGallery/1.png">
 	<img src="/images/instrument/screenGallery/2.png">
 	 <img src="/images/instrument/screenGallery/3.png">
