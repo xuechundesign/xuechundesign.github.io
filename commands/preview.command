@@ -8,7 +8,7 @@ browser() {
 
 }
 serve(){
-  bundle exec jekyll serve -w -l --host=0.0.0.0
+  jekyll serve -w -l --host=0.0.0.0
 }
 
 browser & serve
