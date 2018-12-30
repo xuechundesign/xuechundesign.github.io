@@ -1,5 +1,5 @@
 ---
-title: 'INSTRUMENTALIST'
+title: 'Instrumentalist'
 subtitle: ' INSTRUMENT is a digital brand and experience innovation company with over 180 employees'
 date: 2019-08-30 00:00:00
 featured_image: '/images/instrument/instrument-components.png'
@@ -7,14 +7,44 @@ featured_image: '/images/instrument/instrument-components.png'
 
 
 <p class="intro-text">
-<b> INSTRUMENTENLIST </b>is a website designed to facilitate INSTRUMENT employee growth and assist in meeting their expansion plan.
+  <b>Instrumentenlist</b> is a website designed to facilitate INSTRUMENT employee growth and assist in meeting their expansion plan.
 </p>
 
-
-![](/images/instrument/firstvideo.mp4)
+<video autoplay loop>
+  <source src="/images/instrument/firstvideo.mp4" type="video/mp4">
+</video>
 
 > “A resources sharing platform for employee learn from peers for personal growth ”
 
+<div class="row">
+  <div class="col-xs-4">
+    <img src="/images/instrument/screenGallery/0.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+  <div class="col-xs-4">
+    <img src="/images/instrument/screenGallery/2.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+  <div class="col-xs-4">
+    <img src="/images/instrument/screenGallery/3.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+</div>
+
+<div class="row fit">
+  <div class="col-xs-4">
+    <img src="/images/instrument/screenGallery/0.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+  <div class="col-xs-4">
+    <img src="/images/instrument/screenGallery/2.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+  <div class="col-xs-4">
+    <img src="/images/instrument/screenGallery/3.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+</div>
 
 ### Problem
 
@@ -28,19 +58,13 @@ Create a resources platform for instrument employees to form groups and identify
 ### Objective
 ![](/images/instrument/objective.png)
 
----
-
 ### Icon
-
 
 <div class="gallery" data-columns="1">
 	<img src="/images/instrument/icon.png">
-	
 </div>
 
 I was trying to create a set of the icon based on INSTRUMENT stylish, the <b>clean</b>, <b>linear</b> and <b>easy to read</b> icons. It designed to help users to read quickly with the tiny things so that they can figure out what for next step easier.
-
----
 
 ### Interface
 
@@ -72,11 +96,9 @@ As an <b>engineer</b> work in INSTRUMENT, I'd like to <b> get some knowledge</b>
 
 <br>
 
-<center>
-  <video width="60%" controls autoplay loop >
-    <source src="/images/instrument/video/landing.mp4" type="video/mp4">
-  </video>
-</center>
+<video class="fit" controls autoplay loop >
+  <source src="/images/instrument/video/landing.mp4" type="video/mp4">
+</video>
 
 
 
@@ -91,21 +113,17 @@ As an <b>employee</b>, I want to <b>organize my groups</b> and view the detail t
 
 <br>
 
-<center>
-  <video width="60%" controls autoplay loop >
-    <source src="/images/instrument/video/interestGroup.mp4" type="video/mp4">
-  </video>
-</center>
+<video class="fit" controls autoplay loop >
+  <source src="/images/instrument/video/interestGroup.mp4" type="video/mp4">
+</video>
 
 <br>
 ###### 2.2 Group Detail
 <br>
 
-<center>
-  <video width="60%" controls autoplay loop >
-    <source src="/images/instrument/video/groupDetail.mp4" type="video/mp4">
-  </video>
-</center>
+<video class="fit" controls autoplay loop >
+  <source src="/images/instrument/video/groupDetail.mp4" type="video/mp4">
+</video>
 
 To help <b>new comes</b> know more about this group and easier for they<b> choose join or leave</b>. 
 <b>The detail page </b>of interest group shows the <b>organizer</b>, <b>introduction</b>,<b> group members </b>and <b>photo gallery</b>. 
@@ -114,19 +132,15 @@ To help <b>new comes</b> know more about this group and easier for they<b> choos
 ###### 2.3 Group Chat
 <br>
 
-<center>
-  <video width="60%" controls autoplay loop >
-    <source src="/images/instrument/video/chat.mp4" type="video/mp4">
-  </video>
-</center>
+<video class="fit" controls autoplay loop >
+  <source src="/images/instrument/video/chat.mp4" type="video/mp4">
+</video>
 
 If employees find any <b> useful resources</b>, feel free to share with others. And all of these resources will be saved in the <b>"Attachment" folder</b>.
 
 Consideration
 
-# 图片大小怎么调呀！不会呀！👇 （摔桌
-
-![](/images/instrument/chatAnother.png)
+<img class="fit" src="/images/instrument/chatAnother.png"/>
 
 <br>
 
@@ -142,11 +156,9 @@ Three days later, there is an event comes from GOOGLE, Alan Smith will come here
 ###### 3.1 Post Event
 <br>
 
-<center>
-  <video width="60%" controls autoplay loop >
-    <source src="/images/instrument/video/postevent.mp4" type="video/mp4">
-  </video>
-</center>
+<video class="fit" controls autoplay loop >
+  <source src="/images/instrument/video/postevent.mp4" type="video/mp4">
+</video>
 
 Each events comes from differemt interest groups.
 
@@ -156,11 +168,9 @@ The Event will be published from "UX Design" group. And all of the employees can
 ###### 3.2 View Event
 <br>
 
-<center>
-  <video width="60%" controls autoplay loop >
-    <source src="/images/instrument/video/eventDetail.mp4" type="video/mp4">
-  </video>
-</center>
+<video class="fit" controls autoplay loop >
+  <source src="/images/instrument/video/eventDetail.mp4" type="video/mp4">
+</video>
 
 Each events detail will be showed in here.
 
@@ -169,11 +179,9 @@ In case of some employees are unalble to attend in locale, as long as they click
 ###### 3.3 Upcoming Events Overview
 <br>
 
-<center>
-  <video width="60%" controls autoplay loop >
-    <source src="/images/instrument/video/eventDetail.mp4" type="video/mp4">
-  </video>
-</center>
+<video class="fit" controls autoplay loop >
+  <source src="/images/instrument/video/eventDetail.mp4" type="video/mp4">
+</video>
 
 Each events detail will be showed in here.
 
@@ -186,22 +194,19 @@ In case of some employees are unalble to attend in locale, as long as they click
 ### Screen Gallery
 
 <div class="gallery" data-columns="4">
-
-   <img src="/images/instrument/screenGallery/0.png">
-   <img src="/images/instrument/screenGallery/13.png">
-	<img src="/images/instrument/screenGallery/1.png">
-	<img src="/images/instrument/screenGallery/2.png">
-	 <img src="/images/instrument/screenGallery/3.png">
-	<img src="/images/instrument/screenGallery/4.png">
-	<img src="/images/instrument/screenGallery/5.png">
-	 <img src="/images/instrument/screenGallery/6.png">
-	<img src="/images/instrument/screenGallery/7.png">
-	<img src="/images/instrument/screenGallery/8.png">
-	 <img src="/images/instrument/screenGallery/9.png">
-	<img src="/images/instrument/screenGallery/10.png">
-	<img src="/images/instrument/screenGallery/11.png">
-	 <img src="/images/instrument/screenGallery/12.png">
-
+  <img src="/images/instrument/screenGallery/0.png">
+  <img src="/images/instrument/screenGallery/1.png">
+  <img src="/images/instrument/screenGallery/13.png">
+  <img src="/images/instrument/screenGallery/3.png">
+  <img src="/images/instrument/screenGallery/4.png">
+  <img src="/images/instrument/screenGallery/5.png">
+  <img src="/images/instrument/screenGallery/6.png">
+  <img src="/images/instrument/screenGallery/7.png">
+  <img src="/images/instrument/screenGallery/8.png">
+  <img src="/images/instrument/screenGallery/9.png">
+  <img src="/images/instrument/screenGallery/10.png">
+  <img src="/images/instrument/screenGallery/11.png">
+  <img src="/images/instrument/screenGallery/12.png">
 </div>
 
 ---
