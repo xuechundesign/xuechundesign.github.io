@@ -16,7 +16,7 @@ featured_image: '/images/instrument/instrument-components.png'
 
 > “A resources sharing platform for employee learn from peers for personal growth ”
 
-<div class="row">
+<!--<div class="row">
   <div class="col-xs-4">
     <img src="/images/instrument/screenGallery/0.png">
     Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
@@ -26,25 +26,39 @@ featured_image: '/images/instrument/instrument-components.png'
     Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
   </div>
   <div class="col-xs-4">
+    <img src="/images/instrument/screenGallery/3.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+</div>-->
+
+
+
+<div class="row fit">
+  <div class="col-lg-4 col-sm-12">
+    <img src="/images/instrument/screenGallery/0.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+  <div class="col-lg-4 col-sm-12">
+    <img src="/images/instrument/screenGallery/2.png">
+    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+  </div>
+  <div class="col-lg-4 col-sm-12">
     <img src="/images/instrument/screenGallery/3.png">
     Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
   </div>
 </div>
 
+
+
 <div class="row fit">
-  <div class="col-xs-4">
+  <div class="col-lg-8 col-sm-12">
     <img src="/images/instrument/screenGallery/0.png">
+  </div>
+  <div class="col-lg-4 col-sm-12">
     Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
   </div>
-  <div class="col-xs-4">
-    <img src="/images/instrument/screenGallery/2.png">
-    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
-  </div>
-  <div class="col-xs-4">
-    <img src="/images/instrument/screenGallery/3.png">
-    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
-  </div>
-</div>
+ </div>
+
 
 ### Problem
 
