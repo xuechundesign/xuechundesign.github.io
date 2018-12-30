@@ -28,7 +28,7 @@
 
 .single {
 
-	h1, h2, h3, h4, h5, h6, p, ul, ol {
+	h1, h2, h3, h4, h5, h6, p, ul, ol, img.fit, video.fit, .row.fit {
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 30px;
@@ -48,7 +48,22 @@
 		@include mq(laptop) {
 			max-width: 60%;
 		}
-	}
+  }
+
+  .row {
+		margin-left: 40px;
+    margin-right: 40px;
+    &.fit {
+      padding: 0px;
+
+    }
+  }
+  
+  img, video {
+    display: block;  // to align center by default
+    max-width: 100%; // prevent from overflowing
+    margin: 40px 0;
+  }
 
 	hr {
 		margin: 30px auto;
@@ -170,7 +185,7 @@
 	}
 }
 
-.image-wrap img {
+.image-wrap img, .video-wrap video {
 	margin: 0 auto;
 }
 

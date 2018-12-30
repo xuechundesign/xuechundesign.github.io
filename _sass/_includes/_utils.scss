@@ -8,43 +8,4 @@
   padding-bottom: 110px;
 }
 
-.phone-wrapper {
-  text-align: center;
-  background-color: #eee;
-  margin-top: 30px;
-}
 
-.phone {
-  @include mq(tabletp) {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  width: 50%;
-  max-width: 315px;
-  margin-top: 50px;
-  margin-bottom: 60px;
-}
-
-.iphonex {
-  border-radius: 10% / 5%
-}
-
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.float-left{
-  float: left;
-}
-
-.float-right{
-  float: right;
-}
