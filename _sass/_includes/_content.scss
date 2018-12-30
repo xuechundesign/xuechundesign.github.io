@@ -61,8 +61,14 @@
   
   img, video {
     display: block;  // to align center by default
-    max-width: 100% !important; // prevent from overflowing
+    max-width: 100%; // prevent from overflowing
     margin: 40px 0;
+  }
+
+  @media only screen and (max-width: 500px) {
+    img.fit, video.fit {
+      max-width: 100%; // overriding < 500 px
+    }
   }
 
 	hr {
