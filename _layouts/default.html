@@ -91,7 +91,16 @@
 	</div>
 
 
-	{% include footer.html %}
+  {% if page.url == "/" %}
+  <footer class="footer">
+    <div class="wrap">
+      {% include socials.html %}
+    </div>
+  </footer>
+	{% else %}
+    {% include footer.html %}
+	{% endif %}
+  
 
 
 	<!-- Javascript Assets -->
