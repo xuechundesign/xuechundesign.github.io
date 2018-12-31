@@ -20,7 +20,11 @@
 
 	&:first-child {
 		margin-top: 0;
-	}
+  }
+  
+  img, video {
+    margin: 0;
+  }
 }
 
 .gallery--on {
