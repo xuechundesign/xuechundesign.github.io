@@ -9,9 +9,9 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'UIs'
-      url: '/uis/'
+      url: '/uis'
     - title: 'Illustrations'
-      url: '/illustrations/'
+      url: '/illustrations'
     # - title: 'About'
     #   url: '/about'
     # - title: 'Blog'
