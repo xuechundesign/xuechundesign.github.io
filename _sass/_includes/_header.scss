@@ -15,7 +15,7 @@
 		margin-top: 50px;
 	}
 
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		margin-top: 60px;
 	}
 
@@ -66,7 +66,7 @@
 
 .menu {
 	
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		position: absolute;
 		top: 50%;
 		right: 20px;
@@ -89,7 +89,7 @@
 		right: 0;
 	}
 	
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		display: none;
 	}
 }
@@ -159,7 +159,7 @@
 	opacity: 0;
 	@include transition(all 0.2s ease-in-out);
 
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		position: relative;
 		background: transparent;
 		visibility: visible;
@@ -179,12 +179,14 @@
 	margin: 0 auto;
 	padding: 30px;
 
-	@include mq(tabletp) {
-		padding: 40px 0 0;
-		max-width: 70%;
+	@include mq(phonel) {
+		// padding: 40px 0 0;
+    // max-width: 70%;
+    margin: 0 auto;
+    max-width: 500px;
 	}
 
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		max-width: none;
 		margin: 0;
 		padding: 0;
@@ -193,7 +195,7 @@
 
 .menu__list__item {
 
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		display: inline-block;
 		margin-left: 20px;
 
@@ -213,7 +215,7 @@
 		color: $overlay-accent-color;
 	}
 
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		padding: 0 0 3px;
 		font-size: $menu-medium;
 		color: $text-dark-color;
@@ -231,7 +233,7 @@
 	&.active-link {
 		color: $overlay-accent-color;
 
-		@include mq(tabletl) {
+		@include mq(tabletp) {
 			color: $text-dark-color;
 			border-color: $accent-color;
 		}
@@ -243,7 +245,7 @@
 	padding: 15px 20px 16px;
 	font-size: 13px;
 
-	@include mq(tabletl) {
+	@include mq(tabletp) {
 		margin-top: 0;
 		padding: 11px 20px 12px;
 		font-size: 15px;
@@ -255,7 +257,7 @@
 	.menu__button {
 		border-radius: 24px;
 
-		@include mq(tabletl) {
+		@include mq(tabletp) {
 			border-radius: 21px;
 		}
 	}

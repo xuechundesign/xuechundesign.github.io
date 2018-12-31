@@ -11,7 +11,10 @@ collections:
     permalink: /blog/:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /uis/:slug
+  illustrations:
+    output: true
+    permalink: /illustration/:slug
 
 defaults:
   -
@@ -37,6 +40,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "illustrations"
+    values:
+      layout: "illustration"
 
 markdown: kramdown
 
