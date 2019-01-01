@@ -26,7 +26,13 @@ description: A beautiful, minimal two-column portfolio theme built for Jekyll. D
 			<a class="portfolio-item__link" href="{{ project.url }}">
 
 				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+          {% if project.featured_video %}
+            <video autoplay loop>
+              <source src="{{ project.featured_video }}">
+            </video>
+          {% else %}
+            <img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+          {% endif %}
 				</div>
 
 				<div class="portfolio-item__content">

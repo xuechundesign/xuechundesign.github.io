@@ -1,7 +1,7 @@
 ---
 title: 'Face++ Summer Internship'
 date: 2019-06-30 00:00:00
-featured_image: '/images/facepp/facepp_bg.png'
+featured_image: '/images/facepp/bg.png'
 ---
 
 <p class="intro-text"> 

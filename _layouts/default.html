@@ -69,7 +69,8 @@
 </head>
 
 
-<body class="loading" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
+<!-- drop loading class (too slow to wait for 1st image) -->
+<body data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
 
 	{% include header.html %}
