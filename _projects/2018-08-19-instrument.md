@@ -31,35 +31,6 @@ featured_image: '/images/instrument/instrument-components.png'
   </div>
 </div>-->
 
-
-
-<div class="row fit">
-  <div class="col-lg-4 col-sm-12">
-    <img src="/images/instrument/screenGallery/0.png">
-    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
-  </div>
-  <div class="col-lg-4 col-sm-12">
-    <img src="/images/instrument/screenGallery/2.png">
-    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
-  </div>
-  <div class="col-lg-4 col-sm-12">
-    <img src="/images/instrument/screenGallery/3.png">
-    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
-  </div>
-</div>
-
-
-
-<div class="row fit">
-  <div class="col-lg-8 col-sm-12">
-    <img src="/images/instrument/screenGallery/0.png">
-  </div>
-  <div class="col-lg-4 col-sm-12">
-    Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
-  </div>
- </div>
-
-
 ### Problem
 
 Instrument hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
@@ -70,7 +41,46 @@ Instrument hires the best people with strong skill sets, but they are not levera
 Create a resources platform for instrument employees to form groups and identify internal and extranet events to assist in leveraging your skills to each other.
 
 ### Objective
-![](/images/instrument/objective.png)
+
+<br>
+<div class="row fit">
+<div class="col-lg-3 col-sm-12">
+    From the list of different user groups needs, my primary focus was on providing a tool for employees to learn additional skills from peers and empower each other. 
+  </div>
+  
+  <div class="col-lg-9 col-sm-12">
+    <img src="/images/instrument/objective1.png">
+  </div>
+  
+ </div>
+
+<div class="row fit">
+  <div class="col-lg-4 col-sm-12">
+    <img src="/images/instrument/shape1.png">
+    
+<h4 style="margin-left:0"> Exploration </h4>
+
+<br>
+    Create a way for employees to join different types of groups  to help them get more knowledge and encourage them to share with useful resources
+    
+  </div>
+  <div class="col-lg-4 col-sm-12">
+    <img src="/images/instrument/shape2.png">
+    
+<h4 style="margin-left:0"> Promotion </h4>
+   <br> 
+    Help employees time-management about join events. Allow employees to see if there is any novelty at their company easier.
+    
+  </div>
+  <div class="col-lg-4 col-sm-12">
+    <img src="/images/instrument/shape3.png">
+
+<h4 style="margin-left:0"> Management </h4>
+    <br>
+    The INSTRUMENT events are published by different types of interest groups so that employees could find the events' history as soon as possible.
+    
+  </div>
+</div>
 
 ### Icon
 
