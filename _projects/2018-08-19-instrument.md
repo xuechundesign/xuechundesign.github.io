@@ -42,10 +42,12 @@ Create a resources platform for instrument employees to form groups and identify
 
 ### Objective
 
-<br>
 <div class="row fit">
 <div class="col-lg-3 col-sm-12">
-    From the list of different user groups needs, my primary focus was on providing a tool for employees to learn additional skills from peers and empower each other. 
+<br>
+<br>
+<br>
+    From the list of different user groups needs, my primary focus was on providing a tool for employee s<b> to learn additional skills from peers and empower each other. </b>
   </div>
   
   <div class="col-lg-9 col-sm-12">
