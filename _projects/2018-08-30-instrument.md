@@ -7,7 +7,7 @@ featured_image: '/images/instrument/firstvideo.mp4'
 
 
 <p class="intro-text">
-  <b>Instrumentenlist</b> is a website designed to facilitate INSTRUMENT employee growth and assist in meeting their expansion plan.
+  <b>Instrumentalist</b> is a website designed to facilitate INSTRUMENT employee growth and assist in meeting their expansion plan.
 </p>
 
 <video autoplay loop>
