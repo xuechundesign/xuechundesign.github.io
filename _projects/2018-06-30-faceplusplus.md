@@ -1,18 +1,17 @@
 ---
-title: 'Face++ Summer Internship'
+title: 'Face++'
+subtitle: ' 2018 Summer Internship'
+
 date: 2018-06-30 00:00:00
-featured_image: '/images/facepp/bg.png'
+featured_image: '/images/facepp/face-cover.png'
 ---
 
 <p class="intro-text"> 
 
-Megvii are developing competing facial revognition platforms powered by artificial intelligence.Its main product is Face++, a platform that can detect faces and confirm people's identities with a high degree of accuracy. Entry to all doors in the office is managed by Face++. </p>
+<b>Megvii</b> are developing competing facial revognition platforms powered by artificial intelligence. Its main product is <b>Face++</b>, a platform that can detect faces and confirm people's identities with a high degree of accuracy. </p>
 
 ![](/images/facepp/facecover.png)
 
-<br>
-<br>
-<br>
 ###  **Duration** 
 2018.6 - 2018.8
 
@@ -21,7 +20,7 @@ Beijing, CHINA
 
 ###  **My Main Role**  
 ###### As a newcomer visual designer, I...
-Collaborated with team discuss **UI & UX** existing problems, and solve them **by visual**
+Collaborated with team discuss **UX & UI** existing problems, and solve them **by visual**
 
 Redesign **icon set** for official website
 
@@ -35,11 +34,12 @@ Balanced the PMs' needs and Developers'feasibility into visual design process
 
 ---
 
-### <span style="color:#00A4E2">+ </span> ICON SET DESIGN
-
-Here's another part of internship project to design icon set for Face++ official website.
-
 <br>
+<br>
+### ICON SET DESIGN
+
+Here's a part of internship project to design icon set for Face++ official website.
+
 <br>
 <div class="gallery" data-columns="3">
 	<img src="/images/facepp/icon/icon1.png">
@@ -64,8 +64,7 @@ To emphasis the sense of scientific, I choosed different blue style and combined
 
 <br>
 <br>
-<br>
-### <span style="color:#00A4E2">+ </span> BANNER DESIGN
+### BANNER DESIGN
 
 Here's parts of banner design which are created for face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
 
@@ -82,20 +81,9 @@ Here's parts of banner design which are created for face++, both used in web and
 I worked iteratively with content, brand and marketing teams to identify core pieces of the site and create an extensible visual system that could be used both in web and mobile again and again.
 Here's parts of banner design which are created for face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
 
-
-
 ---
 
-
-### What is my process?
-
-Collaborated with team members and created different icon style and elements and summary all of them.
-
-Decided to choose based on our representative branding stylish <span style="color:#00A4E2"> "**+**" </span> as main charactor for icons.
-
-
-
----
+<br>
 ### Our Company 
 
 Here's a really neat custom feature we added – galleries:
