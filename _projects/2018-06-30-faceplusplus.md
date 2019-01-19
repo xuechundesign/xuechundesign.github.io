@@ -86,12 +86,12 @@ Here's parts of banner design which are created for face++, both used in web and
 <br>
 ### Our Company 
 
-Here's a really neat custom feature we added – galleries:
+Thanks to all of my colleagues' guidance and help to make me collaborate with our team in a comfortable way
 
 <div class="gallery" data-columns="3">
 	<img src="/images/facepp/workingPhoto/1.jpg">
 	<img src="/images/facepp/workingPhoto/2.jpg">
-	<img src="/images/facepp/workingPhoto/3.jpg">
+	
 	<img src="/images/facepp/workingPhoto/4.jpg">
 	<img src="/images/facepp/workingPhoto/5.jpg">
 </div>
