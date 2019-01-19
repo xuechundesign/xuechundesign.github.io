@@ -169,14 +169,15 @@
 			$('.portfolio-wrap').imagesLoaded( function() {
 				$('.portfolio-wrap').masonry({
 					itemSelector: '.portfolio-item',
-					transitionDuration: 0
+          columnWidth: 200,
+					// transitionDuration: 0
 				});
 			});
 
 			// Blog grid layout
 			$('.blog-wrap').imagesLoaded( function() {
 				$('.blog-wrap').masonry({
-					itemSelector: '.blog-post',
+          itemSelector: '.blog-post',
 					transitionDuration: 0
 				});
 			});
@@ -232,7 +233,7 @@
 			// Wrap images
 			$this.find('.gallery__wrap img').each( function() {
 				var imageSrc = $(this).attr('src');
-				$(this).wrapAll('<div class="gallery__item"><a href="' + imageSrc + '" class="gallery__item__link"></div></div>').appendTo();
+				$(this).wrapAll('<div class="gallery__item item"><a href="' + imageSrc + '" class="gallery__item__link"></div></div>').appendTo();
 			});
 
 			// Wait for images to load
@@ -247,17 +248,24 @@
 					// Add owl styles to gallery wrap
 					$this.children('.gallery__wrap').addClass('owl-carousel');
 
-					// Use carousel
-					$this.children('.gallery__wrap').owlCarousel({
-						items: 1,
+          // Use carousel
+          $this.children('.gallery__wrap').owlCarousel({
+            responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+            },
 						loop: true,
-						mouseDrag: false,
+						mouseDrag: true,
 						touchDrag: true,
-						pullDrag: false,
-						dots: true,
-						autoplay: false,
-						autoplayTimeout: 6000,
-						autoHeight: true,
+            pullDrag: false,
+            dots: true,
+            lazyLoad:true,
+            autoplay: false,
+						autoplayTimeout: 3000,
 						animateOut: 'fadeOut'
 					});
 
