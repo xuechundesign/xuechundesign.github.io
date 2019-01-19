@@ -105,8 +105,20 @@
 
 
 	<!-- Javascript Assets -->
-	<script src="/js/jquery.min.js"></script>
-	<script src="/js/duet-min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+
+	<!-- I trust HTTP/2 -->
+  <script src="/js/plugins/history.js"></script>
+  <script src="/js/plugins/imagesloaded.js"></script>
+  <script src="/js/plugins/masonry.js"></script>
+  <script src="/js/plugins/debounce.js"></script>
+  <script src="/js/plugins/fluidbox.js"></script>
+  <script src="/js/plugins/owl.js"></script>
+  <script src="/js/plugins/waypoints.js"></script>
+
+  <!-- unminified version of duet -->
+  <script src="/js/duet.js"></script>
+
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
