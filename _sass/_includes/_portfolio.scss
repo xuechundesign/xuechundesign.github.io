@@ -19,8 +19,18 @@
 	width: 50%;
 }
 .illustration-item {
-	width: 33.3%;
-	padding: $grid-spacing;
+  width: 33.3%;
+	padding: $grid-spacing/2;
+}
+@include mq(tabletp) {
+  .illustration-item {
+    padding: 20px;
+  }
+}
+@include mq(desktop) {
+  .illustration-item {
+    padding: 30px;
+  }
 }
 .portfolio-item--width1 {
 	width: 33.3%;

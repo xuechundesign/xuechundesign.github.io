@@ -362,7 +362,7 @@
       $("#illustrations").lightGallery({
         selector: '.illustrations__link',
         download: false,
-        thumbnail:true,
+        thumbnail:false,
       }); 
     });
 
