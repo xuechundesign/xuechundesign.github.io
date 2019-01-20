@@ -45,7 +45,9 @@
 	<!-- Styles -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/style.css">
-  <link type="text/css" rel="stylesheet" href="gallery/css/lightgallery.white.css" />
+  <link type="text/css" rel="stylesheet" href="/gallery/css/lightgallery.white.css" />
+
+  <!-- <script src="/js/grid/modernizr.custom.js"></script> -->
 
 	<!-- Icons -->
 	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
@@ -129,9 +131,20 @@
   <script src="/gallery/js/lg-hash.min.js"></script>
   <!-- <script src="/gallery/js/lg-share.min.js"></script> -->
   <script src="/gallery/js/lg-fullscreen.min.js"></script>
+
+<!-- 
+  <script src="/js/grid/classie.js"></script>
+  <script src="/js/grid/AnimOnScroll.js"></script>
+  <script>
+    new AnimOnScroll( document.getElementById( 'grid' ), {
+      minDuration : 0.4,
+      maxDuration : 0.7,
+      viewportFactor : 0.2
+    } );
+  </script> -->
+
   <!-- unminified version of duet -->
   <script src="/js/duet.js"></script>
-
 
 
 	{% if site.data.settings.advanced_settings.footer_js %}

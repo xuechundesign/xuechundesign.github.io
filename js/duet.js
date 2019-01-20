@@ -168,24 +168,33 @@
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
 
-		// Wait until first image has loaded
+    // Wait until first image has loaded
+    console.log($('.page__content').find('img:first'));
+
 		$('.page__content').find('img:first').imagesLoaded( function() {
+
+			// Show the content
+			$('body').removeClass('loading');
 	
 			// Portfolio grid layout
-			$('.portfolio-wrap').imagesLoaded( function() {
-        $('.portfolio-wrap').masonry({
+      var $portfolioGrid = $(".portfolio-wrap");
+			$portfolioGrid.imagesLoaded( function() {
+        $portfolioGrid.masonry({
           itemSelector: '.portfolio-item',
           percentPosition: true,
           // transitionDuration: 0
         });
       });
 
-			// Portfolio grid layout
-      $('.illustration-wrap').masonry({
-        itemSelector: '.illustration-item',
-        percentPosition: true,
-        horizontalOrder: true
-        // transitionDuration: 0
+      // Portfolio grid layout
+      var $illustrationGrid = $(".illustration-wrap");
+      $illustrationGrid.imagesLoaded( function() {
+        $illustrationGrid.masonry({
+          itemSelector: '.illustration-item',
+          percentPosition: true,
+          horizontalOrder: true,
+          transitionDuration: 0
+        });
       });
 
 			// Blog grid layout
@@ -195,9 +204,6 @@
 					// transitionDuration: 0
 				});
 			});
-
-			// Show the content
-			$('body').removeClass('loading');
 
 			// Hide the menu
 			$('body').removeClass('menu--open');
@@ -279,9 +285,13 @@
             dots: true,
             lazyLoad:true,
             autoplay: false,
-						autoplayTimeout: 3000,
+						autoplayTimeout: 5000,
 						animateOut: 'fadeOut'
-					});
+          }).on('click', '.owl-stage', function (e) {
+            console.log('next')
+            $(this).trigger('next.owl');
+            e.preventDefault();
+        });
 
 					// When scrolling over the bottom
 					var waypoint1 = new Waypoint({
@@ -392,15 +402,16 @@
 
 				// Wrap in video container
 				$(this).wrapAll('<div class="video-wrap"><div class="video" style="padding-bottom:' + ratio + '%;"></div></div>');
-
 			}
 
 		});
 
 	}
 
-	// Run functions on load
-	pageFunctions();
+  // Run functions on ready/load
+  $(window).load(function() {
+	  pageFunctions();
+  })
 
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
