@@ -9,7 +9,7 @@ featured_video: '/images/instrument/instrument-cover.mp4'
   <b>Instrumentalist</b> is a website designed to facilitate INSTRUMENT employee growth and assist in meeting their expansion plan.
 </p>
 
-<video autoplay loop>
+<video autoplay loop muted playsinline>
   <source src="/images/instrument/firstvideo.mp4" type="video/mp4">
 </video>
 
@@ -106,14 +106,14 @@ As an <b>engineer</b> work in INSTRUMENT, I'd like to <b> get some knowledge</b>
 
 ###### 1.1 Landing Searching
 
-<video class="fit" controls autoplay loop >
+<video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/landing.mp4" type="video/mp4">
 </video>
 
 <br>
 ###### 1.2 Homepage Searching
 
-<video class="fit" controls autoplay loop >
+<video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/homepage.mp4" type="video/mp4">
 </video>
 
@@ -131,13 +131,13 @@ As an <b>employee</b>, I want to <b>organize my groups</b> and view the detail t
 
 <br>
 ###### 2.1 Group Overview
-<video class="fit" controls autoplay loop >
+<video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/interestGroup.mp4" type="video/mp4">
 </video>
 
 <br>
 ###### 2.2 Group Detail
-<video class="fit" controls autoplay loop >
+<video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/groupDetail.mp4" type="video/mp4">
 </video>
 
@@ -151,7 +151,7 @@ To help <b>new comes</b> know more about this group and easier for they<b> choos
 
 <br>
 ###### 2.3 Group Chat
-<video class="fit" controls autoplay loop >
+<video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/chat.mp4" type="video/mp4">
 </video>
 
@@ -175,7 +175,7 @@ Three days later, there is an event comes from GOOGLE, Alan Smith will come here
 <br>
 ###### 3.1 Post Event
 
-<video class="fit" controls autoplay loop >
+<video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/postevent.mp4" type="video/mp4">
 </video>
 
