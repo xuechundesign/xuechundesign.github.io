@@ -85,9 +85,8 @@ Create a resources platform for instrument employees to form groups and identify
 
 ### Icon
 
-<div class="gallery" data-columns="1">
-	<img src="/images/instrument/icon.png">
-</div>
+![](/images/instrument/icon.png)
+
 
 I was trying to create a set of the icon based on INSTRUMENT stylish, the <b>clean</b>, <b>linear</b> and <b>easy to read</b> icons. It designed to help users to read quickly with the tiny things so that they can figure out what for next step easier.
 
@@ -146,7 +145,7 @@ To help <b>new comes</b> know more about this group and easier for they<b> choos
 
 
 
-![](/images/instrument/groupDetail-breakdown.png)
+![](/images/instrument/groupDetail-breakdown.jpg)
 
 
 <br>
@@ -195,7 +194,7 @@ In case of some employees are unalble to attend in locale, as long as they click
 
 
 ###### <span style="color:#D8D8D8"> OVERVIEW of My GROUP and EVENT </span>
-![](/images/instrument/groupandeventl-breakdown.png)
+![](/images/instrument/groupandevent-breakdown.jpg)
 
 
 ---
@@ -204,7 +203,7 @@ In case of some employees are unalble to attend in locale, as long as they click
 ### Screen Gallery
 
 <div class="gallery" data-columns="4">
-  <img src="/images/instrument/screenGallery/0.png">
+  <img src="/images/instrument/screenGallery/0.jpg">
   <img src="/images/instrument/screenGallery/1.png">
   <img src="/images/instrument/screenGallery/13.png">
   <img src="/images/instrument/screenGallery/3.png">
