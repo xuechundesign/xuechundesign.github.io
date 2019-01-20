@@ -94,6 +94,8 @@ Thanks to all of my colleagues' guidance and help to make me collaborate with ou
 	
 	<img src="/images/facepp/workingPhoto/4.jpg">
 	<img src="/images/facepp/workingPhoto/5.jpg">
+	<img src="/images/facepp/workingPhoto/6.jpg">
+	<img src="/images/facepp/workingPhoto/8.jpg">
 </div>
 
 
