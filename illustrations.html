@@ -15,20 +15,24 @@ layout: default
 
 <section class="portfolio" id="illustrations">
 
-	<div class="content-wrap portfolio-wrap">
+	<div class="content-wrap illustration-wrap">
 
 		{% for project in site.data.illustrations.projects %}
 
-		<div class="portfolio-item">
+    {% if project.scale %}
+		  <div class="illustration-item portfolio-item--width{{project.scale}}">
+    {% else %}
+		  <div class="illustration-item">
+    {% endif %}
 
 			<!-- <a class="portfolio-item__link" href="{{ project.url }}"> -->
       <a 
         class="portfolio-item__link illustrations__link" 
         href="{{ project.src }}"
-        data-sub-html="{{ project.title}} <p> {{project.p}} </p>"
+        data-sub-html="{{ project.title}} <p> {{project.desc}} </p>"
       >
 
-				<div class="portfolio-item__image">
+        <div class="portfolio-item__image">
           <img src="
             {% if project.thumb %}
               {{ project.thumb }}

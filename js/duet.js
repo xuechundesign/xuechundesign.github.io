@@ -172,18 +172,26 @@
 		$('.page__content').find('img:first').imagesLoaded( function() {
 	
 			// Portfolio grid layout
-			$('.portfolio-wrap').imagesLoaded( function() {
-				$('.portfolio-wrap').masonry({
-					itemSelector: '.portfolio-item',
-					// transitionDuration: 0
-				});
-			});
+      $('.portfolio-wrap').masonry({
+        itemSelector: '.portfolio-item',
+        percentPosition: true,
+        horizontalOrder: true
+        // transitionDuration: 0
+      });
+
+			// Portfolio grid layout
+      $('.illustration-wrap').masonry({
+        itemSelector: '.illustration-item',
+        percentPosition: true,
+        horizontalOrder: true
+        // transitionDuration: 0
+      });
 
 			// Blog grid layout
 			$('.blog-wrap').imagesLoaded( function() {
 				$('.blog-wrap').masonry({
           itemSelector: '.blog-post',
-					transitionDuration: 0
+					// transitionDuration: 0
 				});
 			});
 

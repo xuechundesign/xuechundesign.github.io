@@ -12,11 +12,24 @@
 	
 }
 
-.portfolio-item {
+.portfolio-item, .illustration-item {
 	position: relative;
 	padding: $grid-spacing/2;
 	float: left;
 	width: 50%;
+}
+.illustration-item {
+	width: 33.3%;
+	padding: $grid-spacing;
+}
+.portfolio-item--width1 {
+	width: 33.3%;
+}
+.portfolio-item--width2 {
+	width: 66.6%;
+}
+.portfolio-item--width3 {
+	width: 100%;
 }
 
 .portfolio-item__link {
