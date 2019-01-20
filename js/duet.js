@@ -127,6 +127,12 @@
 			// Let JS handle it
 		}
 
+		// If link is handled by some JS action – e.g. fluidbox
+		else if ( $(this).is('.illustrations__link') ) {
+			
+			// Let JS handle it
+    }
+
 		// If link is internal
 		else {
 
@@ -169,7 +175,6 @@
 			$('.portfolio-wrap').imagesLoaded( function() {
 				$('.portfolio-wrap').masonry({
 					itemSelector: '.portfolio-item',
-          columnWidth: 200,
 					// transitionDuration: 0
 				});
 			});
@@ -343,6 +348,15 @@
 		});
 
 
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Gallery
+    
+    $(document).ready(function() {
+      $("#illustrations").lightGallery({
+        selector: '.illustrations__link',
+        download: false,
+        thumbnail:true,
+      }); 
+    });
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Images
 

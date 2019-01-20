@@ -1,0 +1,10 @@
+projects:
+  - title: 'A'
+    p: 'blah blah' 
+    date: 2019-08-30 00:00:00
+    src: '/images/illustrations/1.jpg'
+    thumb: '/images/illustrations/2.jpg'
+  - title: 'B'
+    p: 'blah blah' 
+    date: 2019-08-30 00:00:00
+    src: '/images/illustrations/2.jpg'

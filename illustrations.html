@@ -13,24 +13,35 @@ layout: default
 
 </section>
 
-<section class="portfolio">
+<section class="portfolio" id="illustrations">
 
 	<div class="content-wrap portfolio-wrap">
 
-		{% for project in site.illustrations reversed %}
+		{% for project in site.data.illustrations.projects %}
 
 		<div class="portfolio-item">
 
-			<a class="portfolio-item__link" href="{{ project.url }}">
+			<!-- <a class="portfolio-item__link" href="{{ project.url }}"> -->
+      <a 
+        class="portfolio-item__link illustrations__link" 
+        href="{{ project.src }}"
+        data-sub-html="{{ project.title}} <p> {{project.p}} </p>"
+      >
 
 				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+          <img src="
+            {% if project.thumb %}
+              {{ project.thumb }}
+            {% else %}
+              {{ project.src }}
+            {% endif %}
+          " alt="{{ title }}">
 				</div>
 
 				<div class="portfolio-item__content">
 					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+						<!-- <h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p> -->
 					</div>
 				</div>
 
