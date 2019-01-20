@@ -172,11 +172,12 @@
 		$('.page__content').find('img:first').imagesLoaded( function() {
 	
 			// Portfolio grid layout
-      $('.portfolio-wrap').masonry({
-        itemSelector: '.portfolio-item',
-        percentPosition: true,
-        horizontalOrder: true
-        // transitionDuration: 0
+			$('.portfolio-wrap').imagesLoaded( function() {
+        $('.portfolio-wrap').masonry({
+          itemSelector: '.portfolio-item',
+          percentPosition: true,
+          // transitionDuration: 0
+        });
       });
 
 			// Portfolio grid layout
