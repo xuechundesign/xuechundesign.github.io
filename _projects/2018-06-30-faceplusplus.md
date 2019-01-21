@@ -31,12 +31,11 @@ Worked with PMs & Developers, designing from user experience to interface to mee
 Balanced the PMs' needs and Developers'feasibility into visual design process 
 
 <br>
+<br>
 
 ---
 
-<br>
-<br>
-### ICON SET DESIGN
+### Icons 
 
 Here's a part of internship project to design icon set for Face++ official website.
 
@@ -60,13 +59,15 @@ Based on existing main dark color <span style="color:#000E2B">(#000E2B)</span> a
 
 To emphasis the sense of scientific, I choosed different blue style and combined with purple to balance the banner style more suit for website
 
+
+<br>
+<br>
+
 ---
 
-<br>
-<br>
-### BANNER DESIGN
+### Banners 
 
-Here's parts of banner design which are created for face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
+Here's parts of banner design which are created for Face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
 
 <br>
 <div class="gallery" data-columns="3">
@@ -79,11 +80,23 @@ Here's parts of banner design which are created for face++, both used in web and
 </div>
 
 I worked iteratively with content, brand and marketing teams to identify core pieces of the site and create an extensible visual system that could be used both in web and mobile again and again.
-Here's parts of banner design which are created for face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
+Here's parts of banner design which are created for Face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
+
+<br>
+<br>
 
 ---
 
+### UI Design
+
+
+The works are sensitive so not published here.
+
 <br>
+<br>
+
+---
+
 ### Our Company 
 
 Thanks to all of my colleagues' guidance and help to make me collaborate with our team in a comfortable way
