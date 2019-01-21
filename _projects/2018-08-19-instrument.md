@@ -203,7 +203,7 @@ In case of some employees are unalble to attend in locale, as long as they click
 
 ### Screen Gallery
 
-<div class="gallery" data-columns="4">
+<div class="gallery full" data-columns="4">
   <img src="/images/instrument/screenGallery/0.jpg">
   <img src="/images/instrument/screenGallery/1.png">
   <img src="/images/instrument/screenGallery/13.png">

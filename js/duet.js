@@ -388,10 +388,19 @@
 						transitionDuration: 0
 					});
 							
-					// Init fluidbox
-					$this.find('.gallery__item__link').fluidbox({
-						loader: true
-					});
+          if ($this.hasClass('full')){
+					  // Init lightGallery
+            $this.lightGallery({
+              selector: '.gallery__item__link',
+              download: false,
+              thumbnail: false,
+            })
+          } else {
+					  // Init fluidbox
+            $this.find('.gallery__item__link').fluidbox({
+              loader: true
+            });
+          }
 
 				}
 
@@ -408,7 +417,7 @@
       $("#illustrations").lightGallery({
         selector: '.illustrations__link',
         download: false,
-        thumbnail:false,
+        thumbnail: false,
       }); 
     });
 
