@@ -30,12 +30,12 @@ projects:
     thumb: '/images/visuals/2-1.thumb.jpg' 
   - title: S
     desc: '' 
-    src: '/images/visuals/2-2.png'
+    src: '/images/visuals/2-2.jpg'
     thumb: '/images/visuals/2-2.thumb.jpg' 
   - title: S
     desc: '' 
-    src: '/images/visuals/2-3.png'
-    thumb: '/images/visuals/2-3.thumb.png' 
+    src: '/images/visuals/2-3.jpg'
+    thumb: '/images/visuals/2-3.thumb.jpg' 
   - title: S
     desc: '' 
     src: '/images/visuals/2-4.jpg'
