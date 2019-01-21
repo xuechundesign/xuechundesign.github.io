@@ -1,7 +1,7 @@
 ---
 title: 'Instrumentalist'
 subtitle: 'Instrument is a digital brand and experience innovation company with over 180 employees'
-date: 2018-08-30 00:00:00
+date: 2018-10-30 00:00:00
 featured_video: '/images/instrument/instrument-cover.min.mp4'
 featured_image: '/images/instrument/screenGallery/0.jpg' #fallback
 ---
