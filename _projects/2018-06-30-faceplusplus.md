@@ -79,7 +79,7 @@ Here's parts of banner design which are created for Face++, both used in web and
 	<img src="/images/facepp/6faceID.png">
 </div>
 
-I worked iteratively with content, brand and marketing teams to identify core pieces of the site and create an extensible visual system that could be used both in web and mobile again and again.
+I worked iteratively with content, brand and marketing teams to create an extensible visual system that works well with our company.
 Here's parts of banner design which are created for Face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence.
 
 <br>
@@ -89,9 +89,16 @@ Here's parts of banner design which are created for Face++, both used in web and
 
 ### UI Design
 
+I worked 
 
 The works are sensitive so not published here.
 
+<div class="gallery" data-columns="2">
+	<img src="/images/facepp/ui/ui3.jpg">
+	<img src="/images/facepp/ui/ui1.jpg">
+
+	
+</div>
 <br>
 <br>
 
