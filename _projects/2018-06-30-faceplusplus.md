@@ -2,7 +2,7 @@
 title: 'Face++'
 subtitle: ' 2018 Summer Internship'
 
-date: 2018-06-30 00:00:00
+date: 2018-12-30 00:00:00
 featured_image: '/images/facepp/face-cover.png'
 ---
 
@@ -20,15 +20,13 @@ Beijing, CHINA
 
 ###  **My Main Role**  
 ###### As a newcomer visual designer, I...
-Collaborated with team discuss **UX & UI** existing problems, and solve them **by visual**
 
-Redesign **icon set** for official website
+- Collaborated with team discuss **UX & UI** existing problems, and solve them **by visual**
+- Redesign **icon set** for official website
+- Created corresponding **Banner design** for each event's coming and **Coordinate Design System** of the them
+- Worked with PMs & Developers, designing from user experience to interface to meet business needs
+- Balanced the PMs' needs and Developers'feasibility into visual design process 
 
-Created corresponding **Banner design** for each event's coming and **Coordinate Design System** of the them
-
-Worked with PMs & Developers, designing from user experience to interface to meet business needs
-
-Balanced the PMs' needs and Developers'feasibility into visual design process 
 
 <br>
 <br>
