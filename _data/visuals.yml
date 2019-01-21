@@ -2,6 +2,7 @@ projects:
   - title:  A
     desc: A mom meet 15 years old herself in her dream
     src: '/images/visuals/1-1.jpg'
+    thumb: '/images/illustrations/1.thumb.jpg'
   - title: S
     desc: '' 
     src: '/images/visuals/1-2.png'
