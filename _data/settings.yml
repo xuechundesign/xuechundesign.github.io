@@ -8,10 +8,12 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'UIs'
-      url: '/uis'
-    - title: 'Illustrations'
-      url: '/illustrations'
+    - title: 'UI'
+      url: '/ui'
+    - title: 'Illustration'
+      url: '/illustration'
+    - title: 'Visual'
+      url: '/visual'
     # - title: 'About'
     #   url: '/about'
     # - title: 'Blog'

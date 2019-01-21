@@ -143,8 +143,8 @@
 
       // If it's footer, override target to UIs for UI project page.
       if ( $(this).is('.footer__title') ) {
-        if (location.pathname.indexOf("uis") >= 0){
-          thisTarget = "/uis"
+        if (location.pathname.indexOf("ui") >= 0){
+          thisTarget = "/ui"
         }
       }
 
