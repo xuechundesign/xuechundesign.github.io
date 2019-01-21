@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Illustrations
-description: Illustrations made by Sherry
+title: Visuals 
+description: Visuals made by Sherry
 ---
 
 <section class="intro">
 
 	<div class="wrap">
 
-		<h1>An Illustrator.</h1>
+		<h1>A Visual Designer.</h1>
 		<!-- <p>Hahha </p> -->
 
 	</div>
@@ -36,7 +36,10 @@ description: Illustrations made by Sherry
 
         <div class="placeholder"></div>
         <div class="portfolio-item__image">
-          <img src="
+          <article 
+            style="background-image:url({{ project.src }})">
+          </article>
+          <img style="display:none" src="
             {% if project.thumb %}
               {{ project.thumb }}
             {% else %}

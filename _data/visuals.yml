@@ -1,52 +1,60 @@
 projects:
-  - title:  WHEN I WAS A GIRL
+  - title:  A
     desc: A mom meet 15 years old herself in her dream
-    src: '/images/illustrations/1.jpg'
-    thumb: '/images/illustrations/1.thumb.jpg'
-  - title: ''
+    src: '/images/visuals/1-1.jpg'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/2.jpg'
-    thumb: '/images/illustrations/2.thumb.jpg'
-  - title: ''
+    src: '/images/visuals/1-2.png'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/3.jpg'
-    thumb: '/images/illustrations/3.thumb.jpg'
-  - title: ''
+    src: '/images/visuals/1-3.png'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/4.jpg'
-    thumb: '/images/illustrations/4.thumb.jpg'
-  - title: ''
+    src: '/images/visuals/1-4.png'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/5.jpg'
-    thumb: '/images/illustrations/5.thumb.jpg'
-  - title: 'WAIT IN LINE'
-    desc: 'Doodle' 
-    src: '/images/illustrations/6.jpg'
-    thumb: '/images/illustrations/6.thumb.jpg'
-  - title: 'WHERE ARE YOU'
+    src: '/images/visuals/1-5.jpg'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/7.jpg'
-    thumb: '/images/illustrations/7.thumb.jpg'
-  - title: ''
-    desc: 'Reference from other illustrator' 
-    src: '/images/illustrations/8.jpg'
-    thumb: '/images/illustrations/8.thumb.jpg'
-  - title: ''
+    src: '/images/visuals/1-6.jpg'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/9.gif'
-  - title: ''
+    src: '/images/visuals/1-7.jpg'
+
+  - title: S
     desc: '' 
-    src: '/images/illustrations/10.jpg'
-    thumb: '/images/illustrations/10.thumb.jpg'
-  - title: ''
+    src: '/images/visuals/2-1.jpg'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/11.jpg'
-    thumb: '/images/illustrations/11.thumb.jpg'
-  - title: 'Drawing by Ipad'
-    desc: 'Reference from other illustrator' 
-    src: '/images/illustrations/12.png'
-    thumb: '/images/illustrations/12.thumb.jpg'
-  - title: ''
+    src: '/images/visuals/2-2.png'
+  - title: S
     desc: '' 
-    src: '/images/illustrations/13.png'
-    thumb: '/images/illustrations/13.thumb.jpg'
+    src: '/images/visuals/2-3.png'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/2-4.jpg'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/2-5.jpg'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/2-6.jpg'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/2-7.jpg'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/2-8.jpg'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/2-9.jpg'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/2-10.jpg'
+
+  - title: S
+    desc: '' 
+    src: '/images/visuals/3-1.jpg'
+  - title: S
+    desc: '' 
+    src: '/images/visuals/3-2.jpg'
