@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Illustrations
+description: Illustrations made by Sherry
 ---
 
 <section class="intro">
@@ -15,7 +17,7 @@ layout: default
 
 <section class="portfolio" id="illustrations">
 
-	<div class="content-wrap illustration-wrap">
+	<div class="content-wrap illustration-wrap effect-2" id="grid">
 
 		{% for project in site.data.illustrations.projects %}
 
@@ -32,6 +34,7 @@ layout: default
         data-sub-html="{{ project.title}} <p> {{project.desc}} </p>"
       >
 
+        <div class="placeholder"></div>
         <div class="portfolio-item__image">
           <img src="
             {% if project.thumb %}

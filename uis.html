@@ -1,7 +1,7 @@
 ---
 layout: default
-title: A beautiful two-column Jekyll theme
-description: A beautiful, minimal two-column portfolio theme built for Jekyll. Duet makes your work look simply awesome.
+title: UIs
+description: UIs made by Sherry
 ---
 
 <section class="intro">
@@ -27,7 +27,8 @@ description: A beautiful, minimal two-column portfolio theme built for Jekyll. D
 
 				<div class="portfolio-item__image">
           {% if project.featured_video %}
-            <video autoplay loop>
+            <div class="placeholder"></div>
+            <video muted autoplay loop playsinline>
               <source src="{{ project.featured_video }}">
             </video>
           {% else %}

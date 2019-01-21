@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Me
+description: Sherry's Website
 ---
 
 <section class="intro headline">
