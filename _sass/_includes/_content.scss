@@ -30,6 +30,11 @@
         text-decoration: underline;
       }
     }
+    small {
+      font-size: 45%;
+      color: $accent-color;
+      font-weight: inherit;
+    }
   }
 }
 
@@ -69,8 +74,29 @@
 		margin-left: 40px;
     margin-right: 40px;
     &.fit {
+      padding: 0px; 
+    }
+    h1, h2, h3, h4, h5, h6 {
+      max-width: 100%;
       padding: 0px;
-
+      margin: 0px;
+    }
+  }
+  @media only screen and (min-width: 768px){
+    .row.fit {
+      div:first-of-type{
+        padding-left: 0px;
+        padding-right: 30px;
+      }
+      div:last-of-type{
+        padding-left: 30px;
+        padding-right: 0px;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .row.fit {
+      padding: 0px 15px;
     }
   }
   

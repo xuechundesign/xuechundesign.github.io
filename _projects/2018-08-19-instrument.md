@@ -57,7 +57,7 @@ Create a resources platform for instrument employees to form groups and identify
  </div>
 
 <div class="row fit">
-  <div class="col-lg-4 col-sm-12">
+  <div class="col-sm-4 col-xs-12">
     <img src="/images/instrument/shape1.png">
     
 <h4 style="margin-left:0"> Exploration </h4>
@@ -66,7 +66,7 @@ Create a resources platform for instrument employees to form groups and identify
     Create a way for employees to join different types of groups  to help them get more knowledge and encourage them to share with useful resources
     
   </div>
-  <div class="col-lg-4 col-sm-12">
+  <div class="col-sm-4 col-xs-12">
     <img src="/images/instrument/shape2.png">
     
 <h4 style="margin-left:0"> Promotion </h4>
@@ -74,7 +74,7 @@ Create a resources platform for instrument employees to form groups and identify
     Help employees time-management about join events. Allow employees to see if there is any novelty at their company easier.
     
   </div>
-  <div class="col-lg-4 col-sm-12">
+  <div class="col-sm-4 col-xs-12">
     <img src="/images/instrument/shape3.png">
 
 <h4 style="margin-left:0"> Management </h4>
