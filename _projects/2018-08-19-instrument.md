@@ -2,7 +2,7 @@
 title: 'Instrumentalist'
 subtitle: 'Instrument is a digital brand and experience innovation company with over 180 employees'
 date: 2018-08-30 00:00:00
-featured_video: '/images/instrument/instrument-cover.mp4'
+featured_video: '/images/instrument/instrument-cover.min.mp4'
 featured_image: '/images/instrument/screenGallery/0.jpg' #fallback
 ---
 
@@ -11,7 +11,7 @@ featured_image: '/images/instrument/screenGallery/0.jpg' #fallback
 </p>
 
 <video autoplay loop muted playsinline>
-  <source src="/images/instrument/firstvideo.mp4" type="video/mp4">
+  <source src="/images/instrument/firstvideo.min.mp4" type="video/mp4">
 </video>
 
 > “A resources sharing platform for employee learn from peers for personal growth ”
@@ -107,14 +107,14 @@ As an <b>engineer</b> work in INSTRUMENT, I'd like to <b> get some knowledge</b>
 ###### 1.1 Landing Searching
 
 <video class="fit" autoplay loop muted playsinline>
-  <source src="/images/instrument/video/landing.mp4" type="video/mp4">
+  <source src="/images/instrument/video/landing.min.mp4" type="video/mp4">
 </video>
 
 <br>
 ###### 1.2 Homepage Searching
 
 <video class="fit" autoplay loop muted playsinline>
-  <source src="/images/instrument/video/homepage.mp4" type="video/mp4">
+  <source src="/images/instrument/video/homepage.min.mp4" type="video/mp4">
 </video>
 
 <br>
@@ -132,13 +132,13 @@ As an <b>employee</b>, I want to <b>organize my groups</b> and view the detail t
 <br>
 ###### 2.1 Group Overview
 <video class="fit" autoplay loop muted playsinline>
-  <source src="/images/instrument/video/interestGroup.mp4" type="video/mp4">
+  <source src="/images/instrument/video/interestGroup.min.mp4" type="video/mp4">
 </video>
 
 <br>
 ###### 2.2 Group Detail
 <video class="fit" autoplay loop muted playsinline>
-  <source src="/images/instrument/video/groupDetail.mp4" type="video/mp4">
+  <source src="/images/instrument/video/groupDetail.min.mp4" type="video/mp4">
 </video>
 
 To help <b>new comes</b> know more about this group and easier for they<b> choose join or leave</b>. 
@@ -152,7 +152,7 @@ To help <b>new comes</b> know more about this group and easier for they<b> choos
 <br>
 ###### 2.3 Group Chat
 <video class="fit" autoplay loop muted playsinline>
-  <source src="/images/instrument/video/chat.mp4" type="video/mp4">
+  <source src="/images/instrument/video/chat.min.mp4" type="video/mp4">
 </video>
 
 If employees find any <b> useful resources</b>, feel free to share with others. And all of these resources will be saved in the <b>"Attachment" folder</b>.
@@ -176,7 +176,7 @@ Three days later, there is an event comes from GOOGLE, Alan Smith will come here
 ###### 3.1 Post Event
 
 <video class="fit" autoplay loop muted playsinline>
-  <source src="/images/instrument/video/postevent.mp4" type="video/mp4">
+  <source src="/images/instrument/video/postevent.min.mp4" type="video/mp4">
 </video>
 
 Each events comes from differemt interest groups.
