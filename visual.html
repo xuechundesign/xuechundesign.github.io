@@ -37,7 +37,13 @@ description: Visuals made by Sherry
         <div class="placeholder"></div>
         <div class="portfolio-item__image">
           <article 
-            style="background-image:url({{ project.src }})">
+            style="background-image:url(
+              {% if project.thumb %}
+                {{ project.thumb }}
+              {% else %}
+                {{ project.src }}
+              {% endif %}
+            )">
           </article>
           <img style="display:none" src="
             {% if project.thumb %}
