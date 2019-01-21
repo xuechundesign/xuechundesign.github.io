@@ -88,8 +88,12 @@
 
 	$(document).on('click', 'a', function (event){
 
-		// Don't follow link
-		event.preventDefault();
+    if ($(this).hasClass('follow')) {
+      return;
+    }
+
+    // Don't follow link
+    event.preventDefault();
 
 		// Get the link target
 		var thisTarget = $(this).attr('href');
@@ -127,14 +131,22 @@
 			// Let JS handle it
 		}
 
-		// If link is handled by some JS action – e.g. fluidbox
+		// If link is handled by some JS action – e.g. LightGallery
 		else if ( $(this).is('.illustrations__link') ) {
 			
 			// Let JS handle it
     }
 
+
 		// If link is internal
 		else {
+
+      // If it's footer, override target to UIs for UI project page.
+      if ( $(this).is('.footer__title') ) {
+        if (location.pathname.indexOf("uis") >= 0){
+          thisTarget = "/uis"
+        }
+      }
 
 			// Change navTarget
 			navTarget = thisTarget;
@@ -174,39 +186,62 @@
 		$('.page__content').find('img:first').imagesLoaded( function() {
 
 			// Show the content
-			$('body').removeClass('loading');
-	
-			// Portfolio grid layout
-      var $portfolioGrid = $(".portfolio-wrap");
-			$portfolioGrid.imagesLoaded( function() {
-        $portfolioGrid.masonry({
-          itemSelector: '.portfolio-item',
-          percentPosition: true,
-          // transitionDuration: 0
-        });
-      });
-
-      // Portfolio grid layout
-      var $illustrationGrid = $(".illustration-wrap");
-      $illustrationGrid.imagesLoaded( function() {
-        $illustrationGrid.masonry({
-          itemSelector: '.illustration-item',
-          percentPosition: true,
-          horizontalOrder: true,
-          transitionDuration: 0
-        });
-      });
-
-			// Blog grid layout
-			$('.blog-wrap').imagesLoaded( function() {
-				$('.blog-wrap').masonry({
-          itemSelector: '.blog-post',
-					// transitionDuration: 0
-				});
-			});
+      $('body').removeClass('loading');
 
 			// Hide the menu
-			$('body').removeClass('menu--open');
+      $('body').removeClass('menu--open');
+
+      // Until Document Ready
+      $(document).ready(function(){
+
+        // Portfolio grid layout
+        var $portfolioGrid = $(".portfolio-wrap");
+        var $portfolioGridItems = $('.portfolio-wrap .portfolio-item')
+        $portfolioGridItems.hide();
+        $portfolioGrid.masonry({
+          itemSelector: '.portfolio-item',
+          hiddenStyle: {
+            transform: 'translateY(100px)',
+            opacity: 0
+          },
+          visibleStyle: {
+            transform: 'translateY(0px)',
+            opacity: 1
+          }
+        });
+        $portfolioGrid.imagesLoaded().progress( function() {
+          $portfolioGrid.masonry();
+          $portfolioGridItems.show();
+        });
+
+        // Illustration grid layout
+        var $illustrationGrid = $(".illustration-wrap");
+        var $illustrationGridItems = $('.illustration-wrap .illustration-item')
+          $illustrationGrid.masonry({
+            itemSelector: '.illustration-item',
+            percentPosition: true,
+            horizontalOrder: true,
+          });
+        $illustrationGrid.imagesLoaded().progress( function() {
+          $illustrationGrid.masonry();
+          $illustrationGridItems.show();
+        });
+        // $illustrationGrid.imagesLoaded( function() {
+        //   $illustrationGrid.masonry({
+        //     itemSelector: '.illustration-item',
+        //     percentPosition: true,
+        //     horizontalOrder: true,
+        //   });
+        // });
+
+        // Blog grid layout
+        $('.blog-wrap').imagesLoaded( function() {
+          $('.blog-wrap').masonry({
+            itemSelector: '.blog-post',
+            // transitionDuration: 0
+          });
+        });
+      })
 		});
 
 
@@ -387,7 +422,6 @@
 		});
 
 
-
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Videos
 
 		// For each iframe
@@ -409,9 +443,7 @@
 	}
 
   // Run functions on ready/load
-  $(window).load(function() {
-	  pageFunctions();
-  })
+	pageFunctions();
 
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu

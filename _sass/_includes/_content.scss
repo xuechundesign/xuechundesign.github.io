@@ -23,11 +23,11 @@
       @include mq(tabletp) {
         font-size: 55px;
       }
-      a {
-        color: $accent-color;
-        &:hover {
-          text-decoration: underline;
-        }
+    }
+    a {
+      color: $accent-color;
+      &:hover {
+        text-decoration: underline;
       }
     }
   }

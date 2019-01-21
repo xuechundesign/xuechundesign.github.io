@@ -35,9 +35,10 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
+  behance_url: 'http://be.net/xuechundesign'
+  instagram_url: 'https://www.instagram.com/what_a_big_chuner/'
   facebook_url: 'https://www.facebook.com/xuechunwuu/'
   twitter_url: ''
-  instagram_url: 'https://www.instagram.com/what_a_big_chuner/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -50,7 +51,6 @@ social_settings:
   android_url: ''
   tumblr_url: ''
   dribbble_url: ''
-  behance_url: 'http://be.net/xuechundesign'
   deviantart_url: ''
   github_url: ''
   reddit_url: ''

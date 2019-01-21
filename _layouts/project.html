@@ -19,6 +19,45 @@ layout: default
 
 <section class="single">
 
-	{{ page.content }}
+  {{ page.content }}
+  
+  <!-- pager -->
+  <hr>
+  <ul class="pager">
+      {% if page.previous.url %}
+      <li class="previous">
+        <div class="portfolio-item">
+          <a class="portfolio-item__link" href="{{ page.previous.url }}">
+            <article 
+              style="background-image:url({{ page.previous.featured_image }})">
+            </article>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__info">
+                <h2 class="portfolio-item__title">{{ page.previous.title }}</h2>
+                <!-- <p class="portfolio-item__subtitle">{{ page.previous.subtitle }}</p> -->
+              </div>
+            </div>
+          </a>
+   		  </div>
+      </li>
+      {% endif %}
+      {% if page.next.url %}
+      <li class="next">
+        <div class="portfolio-item">
+          <a class="portfolio-item__link" href="{{ page.next.url }}">
+            <article 
+              style="background-image:url({{ page.next.featured_image }})">
+            </article>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__info">
+                <h2 class="portfolio-item__title">{{ page.next.title }}</h2>
+                <!-- <p class="portfolio-item__subtitle">{{ page.next.subtitle }}</p> -->
+              </div>
+            </div>
+          </a>
+   		  </div>
+      </li>
+      {% endif %}
+  </ul>
 
 </section>
