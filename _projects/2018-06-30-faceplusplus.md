@@ -112,8 +112,6 @@ Here's parts of banner design which are created for Face++, both used in web and
 	<img src="/images/facepp/6faceID.png">
 </div>
 
-
-
 <br>
 <br>
 
@@ -171,10 +169,8 @@ I analysised the shortcomes of existing mobile version, the interaction way is t
 Thanks to all of my colleagues' guidance and help to make me collaborate with our team in a comfortable way
 
 <div class="gallery" data-columns="3">
-<img src="/images/facepp/workingPhoto/2.jpg">
+	<img src="/images/facepp/workingPhoto/2.jpg">
 	<img src="/images/facepp/workingPhoto/1.jpg">
-	
-	
 	<img src="/images/facepp/workingPhoto/4.jpg">
 	<img src="/images/facepp/workingPhoto/5.jpg">
 	<img src="/images/facepp/workingPhoto/6.jpg">
