@@ -1,75 +1,91 @@
 projects:
-  - title:  A
-    desc: A mom meet 15 years old herself in her dream
+  - title: TAIL LANGUAGE - 1
+    desc: Here's a part of my work since I was undergraduate student
     src: '/images/visuals/1-1.jpg'
     thumb: '/images/visuals/1-1.thumb.jpg'
-  - title: S
-    desc: '' 
+
+  - title: TAIL LANGUAGE - 2
+    desc: 'Information Design' 
     src: '/images/visuals/1-2.png'
     thumb: '/images/visuals/1-2.thumb.jpg' 
-  - title: S
-    desc: '' 
+
+  - title: TAIL LANGUAGE - 3 
+    desc: 'Information Design' 
     src: '/images/visuals/1-3.png'
     thumb: '/images/visuals/1-3.thumb.jpg'
-  - title: S
+
+  - title: TAIL LANGUAGE - 4
     desc: '' 
     src: '/images/visuals/1-4.png'
     thumb: '/images/visuals/1-4.thumb.jpg' 
-  - title: S
-    desc: '' 
+
+  - title: TAIL LANGUAGE - 5
+    desc: 'Manual Tail -The fur & Plastic with light' 
     src: '/images/visuals/1-6.jpg'
     thumb: '/images/visuals/1-6.thumb.jpg' 
-  - title: S
+
+  - title: TAIL LANGUAGE - 6
     desc: '' 
     src: '/images/visuals/1-7.jpg'
     thumb: '/images/visuals/1-7.thumb.jpg' 
 
-  - title: S
-    desc: '' 
+  - title: SELF-COMMUNICATION - 1
+    desc: 'People needs to pay more attetion to ourselves' 
     src: '/images/visuals/2-1.jpg'
     thumb: '/images/visuals/2-1.thumb.jpg' 
-  - title: S
-    desc: '' 
+
+  - title: SELF-COMMUNICATION - 2
+    desc: 'Information Design' 
     src: '/images/visuals/2-2.jpg'
     thumb: '/images/visuals/2-2.thumb.jpg' 
-  - title: S
-    desc: '' 
+
+  - title: SELF-COMMUNICATION - 3
+    desc: 'Information Design' 
     src: '/images/visuals/2-3.jpg'
     thumb: '/images/visuals/2-3.thumb.jpg' 
-  - title: S
-    desc: '' 
+
+  - title: SELF-COMMUNICATION - 4
+    desc: 'MOXA-MOXIBUSTION ' 
     src: '/images/visuals/2-4.jpg'
     thumb: '/images/visuals/2-4.thumb.jpg' 
-  - title: S
-    desc: '' 
+
+  - title: SELF-COMMUNICATION - 5
+    desc: 'A Chinese way for health' 
     src: '/images/visuals/2-5.jpg'
     thumb: '/images/visuals/2-5.thumb.jpg' 
-  - title: S
-    desc: '' 
+
+  - title: SELF-COMMUNICATION - 6
+    desc: 'Measure Myself' 
     src: '/images/visuals/2-6.jpg'
-    thumb: '/images/visuals/2-6.thumb.jpg' 
-  - title: S
+    thumb: '/images/visuals/2-6.thumb.jpg'
+
+  - title: SELF-COMMUNICATION - 7
     desc: '' 
     src: '/images/visuals/2-7.jpg'
     thumb: '/images/visuals/2-7.thumb.jpg' 
-  - title: S
-    desc: '' 
+  
+  - title: SELF-COMMUNICATION - 8
+    desc: 'Palmstry About Love and Career' 
     src: '/images/visuals/2-8.jpg'
     thumb: '/images/visuals/2-8.thumb.jpg' 
-  - title: S
-    desc: '' 
+  
+  - title: SELF-COMMUNICATION - 9
+    desc: 'Chinese Character Tattoo' 
     src: '/images/visuals/2-9.jpg'
     thumb: '/images/visuals/2-9.thumb.jpg' 
-  - title: S
-    desc: '' 
+  
+  - title: SELF-COMMUNICATION - 10
+    desc: 'Game Wall let others labling you' 
     src: '/images/visuals/2-10.jpg'
     thumb: '/images/visuals/2-10.thumb.jpg' 
 
-  - title: S
-    desc: '' 
+  
+  - title: ODOR DESIGN CONCEPT - 1
+    desc: 'Create Love based on our Odor' 
     src: '/images/visuals/3-1.jpg'
     thumb: '/images/visuals/3-1.thumb.jpg' 
-  - title: S
-    desc: '' 
+  
+  - title: ODOR DESIGN CONCEPT - 2
+    desc: 'Odor Capture and Collection ' 
     src: '/images/visuals/3-2.jpg'
     thumb: '/images/visuals/3-2.thumb.jpg' 

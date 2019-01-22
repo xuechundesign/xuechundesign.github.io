@@ -209,6 +209,7 @@
   right: 0;
   text-align: center;
   z-index: 1080;
+  text-transform: uppercase;
 }
 .lg-sub-html h4 {
   margin: 0;
@@ -218,6 +219,7 @@
 .lg-sub-html p {
   font-size: 12px;
   margin: 5px 0 0;
+  text-transform: none;
 }
 
 #lg-counter {
