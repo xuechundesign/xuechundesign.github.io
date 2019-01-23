@@ -31,6 +31,29 @@ featured_image: '/images/instrument/screenGallery/0.jpg' #fallback
   </div>
 </div>-->
 
+<div class="row fit">
+  <div class="col-sm-4 col-xs-12">
+    <!-- first column starts from here -->
+    <h6>Start time</h6>
+    October 2018
+    <h6>Duration</h6>
+    6 weeks
+    
+    <!-- first column ends here -->
+  </div>
+  <div class="col-sm-8 col-xs-12">
+    <!-- second column starts from here -->
+    <h6>Project type</h6>
+    
+      A school project of UX Strategy to meet the needs for Instrument company's employees
+    
+    <!-- second column ends here -->
+  </div>
+</div> 
+
+<br>
+<br>
+
 ### Problem
 
 **Instrument** hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
@@ -38,7 +61,7 @@ featured_image: '/images/instrument/screenGallery/0.jpg' #fallback
 
 ### Solution
 
-Create a resources platform for instrument employees to form groups and identify internal and extranet events to assist in leveraging your skills to each other.
+Create a resources platform for employees to form groups and identify internal and extranet events to assist in leveraging your skills to each other.
 
 ### Objective
 
