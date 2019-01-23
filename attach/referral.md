@@ -1,0 +1,3 @@
+Xuechun is an design student major in Visual Communication Design at RIT. She has passion and yearning on both arts and design so would be a good fit to design position. 
+
+In terms of her working experience, she was interning as a designer at Face++, an artificial intelligence company, doing UI design and visuals for mobile and web products. She also worked on campus as a RA on design in Labs. She collaborates well with colleagues and suit in the diverse environment. One shinning point is that she receives professional drawing education from 10 years old, so her illustration skill can be a big plus in her skillsets.
