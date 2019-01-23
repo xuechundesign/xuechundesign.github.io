@@ -104,14 +104,14 @@ As an <b>engineer</b> work in INSTRUMENT, I'd like to <b> get some knowledge</b>
 
 ![](/images/instrument/useCase/case1.png)
 
-###### 1.1 Landing Searching
+##### 1.1 Landing Searching
 
 <video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/landing.min.mp4" type="video/mp4">
 </video>
 
 <br>
-###### 1.2 Homepage Searching
+##### 1.2 Homepage Searching
 
 <video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/homepage.min.mp4" type="video/mp4">
@@ -130,13 +130,13 @@ As an <b>employee</b>, I want to <b>organize my groups</b> and view the detail t
 ![](/images/instrument/useCase/case2.png)
 
 <br>
-###### 2.1 Group Overview
+##### 2.1 Group Overview
 <video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/interestGroup.min.mp4" type="video/mp4">
 </video>
 
 <br>
-###### 2.2 Group Detail
+##### 2.2 Group Detail
 <video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/groupDetail.min.mp4" type="video/mp4">
 </video>
@@ -150,14 +150,14 @@ To help <b>new comes</b> know more about this group and easier for they<b> choos
 
 
 <br>
-###### 2.3 Group Chat
+##### 2.3 Group Chat
 <video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/chat.min.mp4" type="video/mp4">
 </video>
 
 If employees find any <b> useful resources</b>, feel free to share with others. And all of these resources will be saved in the <b>"Attachment" folder</b>.
 
-###### Another Solution
+##### Another Solution
 
 <img class="fit" src="/images/instrument/chatAnother.png"/>
 
@@ -173,7 +173,7 @@ Three days later, there is an event comes from GOOGLE, Alan Smith will come here
 ![](/images/instrument/useCase/case3.png)
 
 <br>
-###### 3.1 Post Event
+##### 3.1 Post Event
 
 <video class="fit" autoplay loop muted playsinline>
   <source src="/images/instrument/video/postevent.min.mp4" type="video/mp4">
@@ -184,7 +184,7 @@ Each events comes from differemt interest groups.
 The Event will be published from "UX Design" group. And all of the employees can see it in the homepage later.
 
 <br>
-###### 3.2 View This Event
+##### 3.2 View This Event
 
 Each events detail will be showed in here.
 
@@ -194,7 +194,7 @@ In case of some employees are unalble to attend in locale, as long as they click
 ![](/images/instrument/eventDetail-breakdown.png)
 
 
-###### <span style="color:#D8D8D8"> OVERVIEW of My GROUP and EVENT </span>
+##### <span style="color:#D8D8D8"> OVERVIEW of My GROUP and EVENT </span>
 ![](/images/instrument/groupandevent-breakdown.jpg)
 
 

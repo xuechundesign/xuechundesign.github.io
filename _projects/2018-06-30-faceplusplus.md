@@ -12,25 +12,60 @@ featured_image: '/images/facepp/face-cover.png'
 
 ![](/images/facepp/facecover.png)
 
-####  Duration
-2018.6 - 2018.8
+<div class="row fit">
+  <div class="col-sm-3 col-xs-12">
+    <!-- first column starts from here -->
+    <h6>Position</h6>
+    Designer Intern
+    <h6>Team</h6>
+    Face++ UED (10+)
+    <h6>Duration</h6>
+    2018.6 - 2018.8
+    <h6>Location</h6>
+    Beijing, China
+    <!-- first column ends here -->
+  </div>
+  <div class="col-sm-9 col-xs-12">
+    <!-- second column starts from here -->
+    <h6>My Role</h6>
+    <ul>
+    <li>Solving company problems in the perspective of design.</li>
+    <li>Designing and iterating on visuals and UIs for varity of products.</li>
+    <li>Collaborating and communicating with the team, PMs and engineers.</li>
+    </ul>
+    <h6>Outcomes</h6>
+    <ul>
+    <li>Contributed to live face recognition setup process and the web experience.</li>
+    <li>Greatly contributed to the overall visual language by
+    <ul>
+    <li>Created a complete set of icons (40+)</li>
+    <li>Created banners for website on demand while polishing the guideline.</li>
+    <li>Created materials for business presentation and events.</li>
+    </ul>
+    </li>
+    </ul>
+    <!-- second column ends here -->
+  </div>
+</div> 
 
-####  Location
-Beijing, China
 
-####  My Main Role
+<!-- 
 
-As a Visual Designer Intern, I...
+###### My Role 
 
-- Collaborated with team discuss **UX & UI** existing problems, and solve them **by visual**
-- Redesign **icon set** for official website
-- Created corresponding **Banner design** for each event's coming and **Coordinate Design System** of the them
-- Worked with PMs & Developers, designing from user experience to interface to meet business needs
-- Balanced the PMs' needs and Developers'feasibility into visual design process 
+- Solving company problems in the perspective of design.
+- Designing and iterating on visuals and UIs for varity of products.
+- Collaborating and communicating with the team, PMs and engineers. 
 
+###### Outcomes
 
-<br>
-<br>
+- Contributed to live face recognition setup process and the web experience.
+- Greatly contributed to the overall visual language by
+  - Created a complete set of icons (40+) 
+  - Created banners for website on demand while polishing the guideline.
+  - Created materials for business presentation and events.
+
+-->
 
 ---
 
@@ -50,18 +85,18 @@ Firstly, to make the system more creative and vivid, I combined the line shape a
 <br>
 <div class="gallery" data-columns="3">
 	<img src="/images/facepp/icon/icon1.png">
-   <img src="/images/facepp/icon/icon2.png">
-   	<img src="/images/facepp/icon/icon3.png">
-   	<img src="/images/facepp/icon/icon4.png">
-   	<img src="/images/facepp/icon/icon5.png">
-   	<img src="/images/facepp/icon/icon6.png">
-   	<img src="/images/facepp/icon/icon7.png">
-   	<img src="/images/facepp/icon/icon8.png">
-   	<img src="/images/facepp/icon/icon9.png">
-   	<img src="/images/facepp/icon/icon10.png"> 	<img src="/images/facepp/icon/icon11.png">
-   	<img src="/images/facepp/icon/icon12.png">
-   			
-	</div>
+  <img src="/images/facepp/icon/icon2.png">
+  <img src="/images/facepp/icon/icon3.png">
+  <img src="/images/facepp/icon/icon4.png">
+  <img src="/images/facepp/icon/icon5.png">
+  <img src="/images/facepp/icon/icon6.png">
+  <img src="/images/facepp/icon/icon7.png">
+  <img src="/images/facepp/icon/icon8.png">
+  <img src="/images/facepp/icon/icon9.png">
+  <img src="/images/facepp/icon/icon10.png"> 	
+  <img src="/images/facepp/icon/icon11.png">
+  <img src="/images/facepp/icon/icon12.png">
+</div>
 
 ![](/images/facepp/face-id-logo.png)
 
@@ -121,14 +156,11 @@ Here's parts of banner design which are created for Face++, both used in web and
 
 #### Live Face Recognition Setup
 
-**Live Face Recognition**, a.k.a. Liveness Detection, is increasinly important in AI area, where traditional face recognition could suffer from faked faces and result in insecurities. This is especially important for government departments like public security organization, and vulnerable corporations such as banks and big companies.
+While traditional face recognition could suffer from faked faces and result in insecurities, **Live Face Recognition** is increasinly important in AI and being critical for government departments like public security and vulnerable corporations such as banks. 
 
+This project is to provide a setup process to our clients using this service to present to their users. It needs to take photos of users' ID cards and to record videos containing users' biological data for future verification. I worked upon my mentors existing user flows and wireframes. My duty is to help designing a UI that feels reliable yet approachable to the wide variety of user bases of the project.
 
-This project is to provide a setup process to our clients using this service to present to their users. It needs to take photos of users' ID cards and to record videos both as samples for future verification. My work on this project is based on my mentors existing works on user flows and wireframes, and my duty is to help designing the UIs feeling more reliable yet more approachable to the broad variety of user bases of this project.
-
-Making UIs reliable is relatively straightforward. I made it looks formal and official, provided a clean userpath, and added our company logo as backing. However, _how to make it more intuitive for more users?_ **A picture is worth a thousand words!** I decided to create a bunch of friendly illustrations added to the UI as a visual guidance throughout the whole setup process. 
-
-Here are them!
+Making UIs reliable is relatively straightforward. I made it looks formal and official, provided a clean user path, and added our company logo as endorsement. However, _how to make it more intuitive for more users?_ **A picture is worth a thousand words!** I decided to create a bunch of friendly illustrations added to the UI as a visual guidance throughout the whole setup process. Here are them!
 
 
 ![](/images/facepp/ui/faceID.png)
@@ -176,7 +208,6 @@ Thanks to all of my colleagues' guidance and help to make me collaborate with ou
 	<img src="/images/facepp/workingPhoto/6.jpg">
 	<img src="/images/facepp/workingPhoto/8.jpg">
 </div>
-
 
 
 

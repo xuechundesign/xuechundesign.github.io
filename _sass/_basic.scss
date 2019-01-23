@@ -41,9 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $title-font;
 	color: $text-dark-color;
 
-	&:first-child {
-		margin-top: 0;
-	}
+  // uncomment for grid system
+
+	// &:first-child {
+	// 	margin-top: 0;
+	// }
 }
 
 h1, .h1 {
@@ -110,7 +112,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-	margin-top: 15px;
+	margin-top: 22px;
 	font-size: $h5-small;
 	font-weight: $h5-weight;
 	line-height: $h5-lineheight;
@@ -126,7 +128,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-	margin-top: 15px;
+	margin-top: 18px;
 	font-size: $h6-small;
 	font-weight: $h6-weight;
 	line-height: $h6-lineheight;
@@ -137,6 +139,7 @@ h6, .h6 {
 	}
 
 	@include mq(laptop) {
+	  margin-top: 25px;
 		font-size: $h6-large;
 	}
 }
@@ -166,7 +169,8 @@ p, ul, ol {
 }
 
 ul, ol {
-	list-style-position: inside;
+  // It's ugly!
+	// list-style-position: inside;
 }
 
 blockquote {
