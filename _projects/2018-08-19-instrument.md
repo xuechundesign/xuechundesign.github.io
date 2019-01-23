@@ -1,13 +1,13 @@
 ---
 title: 'Instrumentalist'
-subtitle: 'Instrument is a digital brand and experience innovation company with over 180 employees'
+subtitle: 'a web app concept for better co-working experience'
 date: 2018-10-30 00:00:00
 featured_video: '/images/instrument/instrument-cover.min.mp4'
 featured_image: '/images/instrument/screenGallery/0.jpg' #fallback
 ---
 
 <p class="intro-text">
-  <b>Instrumentalist</b> is a website designed to facilitate INSTRUMENT employee growth and assist in meeting their expansion plan.
+  <b>Instrumentalist</b> is a website designed to facilitate Instrument employee growth and assist in meeting their expansion plan.
 </p>
 
 <video autoplay loop muted playsinline>
@@ -33,7 +33,7 @@ featured_image: '/images/instrument/screenGallery/0.jpg' #fallback
 
 ### Problem
 
-**INSTRUMENT** hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
+**Instrument** hires the best people with strong skill sets, but they are not leveraging the efficiently enough to help others growth and accomplish their expansion plans.
 
 
 ### Solution
@@ -79,7 +79,7 @@ Create a resources platform for instrument employees to form groups and identify
 
 <h4 style="margin-left:0"> Management </h4>
     <br>
-    The INSTRUMENT events are published by different types of interest groups so that employees could find the events' history as soon as possible.
+    The Instrument events are published by different types of interest groups so that employees could find the events' history as soon as possible.
     
   </div>
 </div>
@@ -89,7 +89,7 @@ Create a resources platform for instrument employees to form groups and identify
 ![](/images/instrument/icon.png)
 
 
-I was trying to create a set of the icon based on INSTRUMENT stylish, the <b>clean</b>, <b>linear</b> and <b>easy to read</b> icons. It designed to help users to read quickly with the tiny things so that they can figure out what for next step easier.
+I was trying to create a set of the icon based on Instrument stylish, the <b>clean</b>, <b>linear</b> and <b>easy to read</b> icons. It designed to help users to read quickly with the tiny things so that they can figure out what for next step easier.
 
 ---
 
@@ -99,7 +99,7 @@ I was trying to create a set of the icon based on INSTRUMENT stylish, the <b>cle
 
 #### Use Case1 - SEARCHING INTEREST GROUPS BY KEYWORD
 
-As an <b>engineer</b> work in INSTRUMENT, I'd like to <b> get some knowledge</b> for <b> Design</b> ,so that I can training my aesthetic and logical communication skill.
+As an <b>engineer</b> work in Instrument, I'd like to <b> get some knowledge</b> for <b> Design</b> ,so that I can training my aesthetic and logical communication skill.
 
 
 ![](/images/instrument/useCase/case1.png)
@@ -224,11 +224,11 @@ In case of some employees are unalble to attend in locale, as long as they click
 
 #### Conclusion
 
-This product helps employees at INSTRUMENT work more interesting and communicate with each other in the group events process in order to improve employees personal growth.
+This product helps employees at Instrument work more interesting and communicate with each other in the group events process in order to improve employees personal growth.
 
 ---
 
 
-#### Thanks, INSTRUMENT
+#### Thanks, Instrument
 
-I appreciate that INSTRUMENT gives us the challenge to work on this project! It's a unique opportunity for us to work for a real project and it also enhances my skills to consider marketing needs for UX problems. Thanks again for your time in giving us this opportunity!
+I appreciate that Instrument gives us the challenge to work on this project! It's a unique opportunity for us to work for a real project and it also enhances my skills to consider marketing needs for UX problems. Thanks again for your time in giving us this opportunity!
