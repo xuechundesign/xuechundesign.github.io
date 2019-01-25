@@ -68,7 +68,8 @@ featured_image: '/images/facepp/face-cover.png'
 
 -->
 
----
+<br>
+<br>
 
 ### UX & UI
 
@@ -96,6 +97,8 @@ Making UIs reliable is relatively straightforward. I made it looks formal and of
   <div class="col-xs-2"> </div>
 </div>
 
+<br>
+<br>
 
 ## Icons 
 
@@ -142,9 +145,6 @@ I also tested to cut down a part of elements in the icon like dot line, and ligh
 ![](/images/facepp/icon/icon-black.png)
 
 <br>
-<br>
-
----
 
 ### Banners 
 
@@ -153,7 +153,7 @@ Here's parts of banner design which are created for Face++, both used in web and
 
 Based on existing main dark color <span style="color:#000E2B">(#000E2B)</span> as background to add scientific but vivid style,in the meanwhile express the similar meaning for abstract business events.
 
-When we imagine the scientific and AI, these words always came out to my mind, "transparancy","metallic","dark blue"
+When we imagine the scientific and AI, these words always came out to my mind, such as "transparancy", "metallic", "dark blue" ,etc.
 To emphasis the sense of scientific, I choosed different blue style and combined with purple to balance the banner style more suit for website
 
 <br>
@@ -168,8 +168,6 @@ To emphasis the sense of scientific, I choosed different blue style and combined
 
 <br>
 <br>
-
----
 
 ### Mobile Web Redesign 
 
@@ -203,6 +201,6 @@ Thanks to all of my colleagues' guidance and help to make me collaborate with ou
 	
 </div>
 
-
+![](/images/facepp/last.png)
 
 
