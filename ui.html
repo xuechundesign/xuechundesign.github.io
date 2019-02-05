@@ -20,6 +20,8 @@ description: UI made by Sherry
 	<div class="content-wrap portfolio-wrap">
 
 		{% for project in site.projects reversed %}
+		{% if project.hidden %}
+		{% else %}
 
 		<div class="portfolio-item">
 
@@ -47,6 +49,7 @@ description: UI made by Sherry
 
 		</div>
 
+		{% endif %}
 		{% endfor %}
 
 	</div>
