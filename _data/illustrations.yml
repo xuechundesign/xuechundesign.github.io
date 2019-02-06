@@ -23,8 +23,33 @@ projects:
     desc: 'Doodle' 
     src: '/images/illustrations/6.jpg'
     thumb: '/images/illustrations/6.thumb.jpg'
-  - title: 
-    desc: Copying Painting Practice <br> iPad, Procreate 
+  - title: EVENTS CATEGORY FOR BUSINESS
+    desc: Social 
+    src: '/images/illustrations/google-1.png'
+    thumb: '/images/illustrations/google.thumb1.png'
+  - title: EVENTS CATEGORY FOR BUSINESS
+    desc: All events 
+    src: '/images/illustrations/google-2.png'
+    thumb: '/images/illustrations/google.thumb2.png'
+  - title: EVENTS CATEGORY FOR BUSINESS
+    desc: Music 
+    src: '/images/illustrations/google-sports.png'
+    thumb: '/images/illustrations/google.thumb3.png'
+  - title: EVENTS CATEGORY FOR BUSINESS 
+    desc: Sports 
+    src: '/images/illustrations/google-4.png'
+    thumb: '/images/illustrations/google.thumb4.png'
+  - title: EVENTS CATEGORY FOR BUSINESS
+    desc: Volunteering 
+    src: '/images/illustrations/google-volunteering.png'
+    thumb: '/images/illustrations/google.thumb5.png'
+
+  - title: EVENTS CATEGORY FOR BUSINESS
+    desc: Art 
+    src: '/images/illustrations/google-6.png'
+    thumb: '/images/illustrations/google.thumb6.png'
+
+  - title:  
     src: '/images/illustrations/12.png'
     thumb: '/images/illustrations/12.thumb.jpg'
   - title: 'PUZZLE'
