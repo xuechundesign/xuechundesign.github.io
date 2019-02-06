@@ -25,6 +25,7 @@ layout: default
   <hr>
   <ul class="pager">
       {% if page.previous.url %}
+      {% if page.previous.hidden != true %}
       <li class="previous">
         <div class="portfolio-item">
           <a class="portfolio-item__link" href="{{ page.previous.url }}">
@@ -41,7 +42,9 @@ layout: default
    		  </div>
       </li>
       {% endif %}
+      {% endif %}
       {% if page.next.url %}
+      {% if page.next.hidden != true %}
       <li class="next">
         <div class="portfolio-item">
           <a class="portfolio-item__link" href="{{ page.next.url }}">
@@ -57,6 +60,7 @@ layout: default
           </a>
    		  </div>
       </li>
+      {% endif %}
       {% endif %}
   </ul>
 
