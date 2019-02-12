@@ -110,6 +110,32 @@
 		display: block;
 		cursor: zoom-in;
 	}
+	&[data-columns="0"] {
+
+		.gallery__item {
+			width: 100%;
+			text-align: center;
+			img {
+				width: 100%;
+				display: inline-block;
+			}
+			@include mq(phonel) {
+				img {
+					width: 60%;
+				}
+			}
+			@include mq(tabletp) {
+				img {
+					width: 45%;
+				}
+			}
+			@include mq(tabletl) {
+				img {
+					width: 35%;
+				}
+			}
+		}
+	}
 
 	&[data-columns="3"] {
 
