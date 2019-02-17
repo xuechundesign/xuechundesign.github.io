@@ -71,7 +71,7 @@ featured_image: '/images/facepp/face-cover.png'
 <br>
 <br>
 
-### UX & UI
+## Project 1: UX & UI
 
 #### Live Face Recognition Setup
 
@@ -97,10 +97,10 @@ Making UIs reliable is relatively straightforward. I made it looks formal and of
   <div class="col-xs-2"> </div>
 </div>
 
-<br>
-<br>
 
-## Icons 
+<br>
+<br>
+## Project 2: Icons 
 
 Since I just come to Face++, my visual mentor asked me to do is drawing a set of icon for website. They don't like the old icon version serves for their web.
 
@@ -145,8 +145,8 @@ I also tested to cut down a part of elements in the icon like dot line, and ligh
 ![](/images/facepp/icon/icon-black.png)
 
 <br>
-
-### Banners 
+<br>
+## Project 3: Banners 
 
 I worked iteratively with content, brand and marketing teams to create an extensible visual system that works well with our company.
 Here's parts of banner design which are created for Face++, both used in web and mobile devices - all with the goal of elevating the product's digital presence. 
@@ -169,7 +169,7 @@ To emphasis the sense of scientific, I choosed different blue style and combined
 <br>
 <br>
 
-### Mobile Web Redesign 
+## Project 4: Mobile Web Redesign 
 
 To make mobile web interaction and visual more intuitive, I redesigned and optimized a part of it. Combining some AI style illustrations to make it works better on the mobile. I change the visual in a clear way and as Apple Developer as reference.
 Personally, I put Apple offical website first as my reference source, because Apple interaction way sometimes are similar with our product in UI. 
@@ -184,7 +184,8 @@ After that I learned more constraints of UI design for mobile webs, such as how 
 	<img src="/images/facepp/ui/ui5.jpg">
 </div>
 
----
+<br>
+<br>
 
 ### Our Company 
 

@@ -65,25 +65,28 @@ Create a resources platform for employees to form groups and identify internal a
 
 ### Objective
 
+<br>
 <div class="row fit">
 <div class="col-lg-3 col-sm-12">
-<br>
-<br>
-<br>
-    From the list of different user groups needs, my primary focus was on providing a tool for employee s<b> to learn additional skills from peers and empower each other. </b>
+
+    From the list of different user groups needs, my primary focus was on providing a tool for employees<b> to learn additional skills from peers and empower each other.</b>
+
+<br>  
+<br>   
+    <b>Stakeholder needs and requirements 👉🏻</b>
+    
   </div>
   
   <div class="col-lg-9 col-sm-12">
     <img src="/images/instrument/objective1.png">
-  </div>
-  
+  </div> 
  </div>
 
 <div class="row fit">
   <div class="col-sm-4 col-xs-12">
     <img src="/images/instrument/shape1.png">
     
-<h4 style="margin-left:0"> Exploration </h4>
+<h5 style="margin-left:0"> Exploration </h5>
 
 <br>
     Create a way for employees to join different types of groups  to help them get more knowledge and encourage them to share with useful resources
@@ -92,7 +95,7 @@ Create a resources platform for employees to form groups and identify internal a
   <div class="col-sm-4 col-xs-12">
     <img src="/images/instrument/shape2.png">
     
-<h4 style="margin-left:0"> Promotion </h4>
+<h5 style="margin-left:0"> Involvement</h5>
    <br> 
     Help employees time-management about join events. Allow employees to see if there is any novelty at their company easier.
     
@@ -100,12 +103,46 @@ Create a resources platform for employees to form groups and identify internal a
   <div class="col-sm-4 col-xs-12">
     <img src="/images/instrument/shape3.png">
 
-<h4 style="margin-left:0"> Management </h4>
+<h5 style="margin-left:0"> Management </h5>
     <br>
     The Instrument events are published by different types of interest groups so that employees could find the events' history as soon as possible.
     
   </div>
 </div>
+
+<br>
+<br>
+### Research & Competitors study
+
+<div class="row fit">
+  <div class="col-sm-4 col-xs-12">
+    <img src="/images/instrument/competitors/competitor1.png">
+    
+<h5 style="margin-left:0"> Meetup </h5>
+
+<br>
+    <b>Meetup</b> brings people together in thousandas of cities to do more of what they want to do in life. It brings people together to do, explore, teach and learn.
+    
+  </div>
+  <div class="col-sm-4 col-xs-12">
+    <img src="/images/instrument/competitors/competitor2.png">
+    
+<h5 style="margin-left:0"> Workplace</h5>
+   <br> 
+    To help people in businesses connect and discover new ways of working. Groups are shared spaces for people to work together in teams, discuss common interests and share ideas. And groups are for working with anyone, even people at other companies. Conversation moves quickly, a message on Work Chat, often gets you the answer you need or keeps the whole team in the loop.
+    
+  </div>
+  <div class="col-sm-4 col-xs-12">
+    <img src="/images/instrument/competitors/competitor3.png">
+
+<h5 style="margin-left:0"> Messenger </h5>
+    <br>
+    The Messenger web app interface shows the importance of providing a platform for employees to communicate and discuss what interested them based on their joined interest groups. So, I create "group chat" as a similar use case for employees better-communication.
+  
+    
+  </div>
+</div>
+
 
 ### Icon
 
@@ -124,8 +161,11 @@ I was trying to create a set of the icon based on Instrument stylish, the <b>cle
 
 As an <b>engineer</b> work in Instrument, I'd like to <b> get some knowledge</b> for <b> Design</b> ,so that I can training my aesthetic and logical communication skill.
 
-
-![](/images/instrument/useCase/case1.png)
+<div class="gallery" data-columns="2">
+	<img src="/images/instrument/useCase/case1.png">
+	<img src="/images/instrument/wireframe/wireframe-1.png">
+	
+</div>
 
 ##### 1.1 Landing Searching
 
@@ -150,7 +190,12 @@ As an <b>engineer</b> work in Instrument, I'd like to <b> get some knowledge</b>
 
 As an <b>employee</b>, I want to <b>organize my groups</b> and view the detail to see if there are any of my familiar coworkers, I'd be more interested in this group.
 
-![](/images/instrument/useCase/case2.png)
+<div class="gallery full" data-columns="2">
+	<img src="/images/instrument/useCase/case2.png">
+	<img src="/images/instrument/wireframe/wireframe-2.png">
+	
+</div>
+
 
 <br>
 ##### 2.1 Group Overview
@@ -192,8 +237,11 @@ If employees find any <b> useful resources</b>, feel free to share with others. 
 As a <b>manager</b> of the interest group, I need to post event inform our group members.
 
 Three days later, there is an event comes from GOOGLE, Alan Smith will come here to show us Google illustration study guide.
-
-![](/images/instrument/useCase/case3.png)
+<div class="gallery full" data-columns="2">
+	<img src="/images/instrument/useCase/case3.png">
+	<img src="/images/instrument/wireframe/wireframe-3.png">
+	
+</div>
 
 <br>
 ##### 3.1 Post Event
@@ -221,7 +269,18 @@ In case of some employees are unalble to attend in locale, as long as they click
 ![](/images/instrument/groupandevent-breakdown.jpg)
 
 
----
+
+
+### Design Process
+##### Brainstorm with my classmates
+<div class="gallery" data-columns="1">
+	<img src="/images/instrument/brainstorm/brainstorm1.png">
+	<img src="/images/instrument/brainstorm/brainstorm2.png">
+	<img src="/images/instrument/brainstorm/brainstorm3.png">
+	<img src="/images/instrument/brainstorm/brainstorm4.png">
+	<img src="/images/instrument/brainstorm/brainstorm5.png">
+	
+</div>
 
 
 ### Screen Gallery
