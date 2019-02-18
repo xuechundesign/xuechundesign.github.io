@@ -26,11 +26,12 @@
 
 .header__logo {
 	display: block;
-	width: $logo-width;
+	width: 100px;
 	max-width: 80%;
 
 	@include mq(tabletp) {
 		// float: left;
+	  width: $logo-width;
 		max-width: 50%;
 	}
 }

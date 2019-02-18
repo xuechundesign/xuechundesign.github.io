@@ -4,16 +4,16 @@ basic_settings:
 
 header_settings:
   logo_image: /images/logo-sherry.jpg 
-  logo_width: 140
+  logo_width: 160
 
 menu_settings:
   menu_items:
     - title: 'UI'
-      url: '/ui'
+      url: '/'
     - title: 'Illustration'
       url: '/illustration'
-    - title: 'Visual'
-      url: '/visual'
+    - title: 'Graphic'
+      url: '/graphic'
     # - title: 'About'
     #   url: '/about'
     # - title: 'Blog'
@@ -23,7 +23,7 @@ menu_settings:
 
 footer_settings:
   logo_image: /images/logo-sherry.jpg 
-  logo_width: 140
+  logo_width: 160
   footer_tagline: 
 
 grid_settings:
