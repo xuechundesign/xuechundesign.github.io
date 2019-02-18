@@ -30,7 +30,7 @@
 	max-width: 80%;
 
 	@include mq(tabletp) {
-		float: left;
+		// float: left;
 		max-width: 50%;
 	}
 }
