@@ -10,10 +10,10 @@ menu_settings:
   menu_items:
     - title: 'UI'
       url: '/'
-    - title: 'Illustration'
-      url: '/illustration'
     - title: 'Graphic'
       url: '/graphic'
+    - title: 'Illustration'
+      url: '/illustration'
     # - title: 'About'
     #   url: '/about'
     # - title: 'Blog'
