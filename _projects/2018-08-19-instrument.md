@@ -149,7 +149,7 @@ Create a resources platform for employees to form groups and identify internal a
 ![](/images/instrument/icon.png)
 
 
-I was trying to create a set of the icon based on Instrument stylish, the <b>clean</b>, <b>linear</b> and <b>easy to read</b> icons. It designed to help users to read quickly with the tiny things so that they can figure out what for next step easier.
+I was trying to create a set of the icon based on Instrument design trend, the <b>clean</b>, <b>linear</b> and <b>easy to read</b> icons. It designed to help users to read quickly with the tiny things so that they can figure out what for next step easier.
 
 ---
 

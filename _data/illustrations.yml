@@ -23,8 +23,8 @@ projects:
     desc: 'Doodle' 
     src: '/images/illustrations/6.jpg'
     thumb: '/images/illustrations/6.thumb.jpg'
-  - title: EVENTS CATEGORY FOR BUSINESS
-    desc: Social 
+  - title: UX girl
+    desc:  
     src: '/images/illustrations/workgirl.png'
     thumb: '/images/illustrations/workgirl-thumb.png'  
   - title: EVENTS CATEGORY FOR BUSINESS
