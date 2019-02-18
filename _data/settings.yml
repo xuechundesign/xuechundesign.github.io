@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Sherry 
-  favicon_image: /images/logo-sherry.jpg
+  favicon_image: /images/favicon-sherry.jpg
 
 header_settings:
   logo_image: /images/logo-sherry.jpg 
