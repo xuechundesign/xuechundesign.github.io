@@ -886,6 +886,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   height: auto !important;
   padding: 8vw !important;
 }
+/* so damn hack! */
+/* css injection */
+.lg-outer .lg-image[src*="thesis"] {
+  padding: 2vw !important;
+}
+.lg-outer .lg-image[src*="pad3"] {
+  padding: 3vw !important;
+}
 @media only screen and (max-width: 768px) {
   .lg-outer .lg-image {
     padding: 4vw !important;

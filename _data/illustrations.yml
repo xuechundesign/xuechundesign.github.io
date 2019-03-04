@@ -1,4 +1,23 @@
 projects:
+
+  - title:  Thesis character
+    desc: 
+    src: '/images/illustrations/thesis/5year.jpg'
+  - title:  Thesis character
+    desc: 
+    src: '/images/illustrations/thesis/17year.jpg'
+  - title:  Thesis character
+    desc: 
+    src: '/images/illustrations/thesis/21year.jpg'
+  - title:  Thesis character
+    desc: 
+    src: '/images/illustrations/thesis/26year.jpg'
+  - title:  Thesis character
+    desc: 
+    src: '/images/illustrations/thesis/32year.jpg'
+  - title:  Thesis character
+    desc: 
+    src: '/images/illustrations/thesis/36year.jpg'     
   - title:  when i was a girl - 1
     desc: A mom meet 15 years old herself in her dream
     src: '/images/illustrations/1.jpg'

@@ -48,6 +48,7 @@
 .portfolio-item__link {
 	position: relative;
 	display: block;
+	overflow:hidden;
 
 	@include mq(tabletl) {
 
