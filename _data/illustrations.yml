@@ -3,6 +3,7 @@ projects:
   - title:  Thesis character
     desc: 
     src: '/images/illustrations/thesis/5year.jpg'
+    thumb: '/images/illustrations/thesis/5year-thumb.jpg'
   - title:  Thesis character
     desc: 
     src: '/images/illustrations/thesis/17year.jpg'
@@ -17,31 +18,7 @@ projects:
     src: '/images/illustrations/thesis/32year.jpg'
   - title:  Thesis character
     desc: 
-    src: '/images/illustrations/thesis/36year.jpg'     
-  - title:  when i was a girl - 1
-    desc: A mom meet 15 years old herself in her dream
-    src: '/images/illustrations/1.jpg'
-    thumb: '/images/illustrations/1.thumb.jpg'
-  - title: 'when i was a girl - 2'
-    desc: '' 
-    src: '/images/illustrations/2.jpg'
-    thumb: '/images/illustrations/2.thumb.jpg'
-  - title: 'when i was a girl - 3'
-    desc: '' 
-    src: '/images/illustrations/3.jpg'
-    thumb: '/images/illustrations/3.thumb.jpg'
-  - title: 'when i was a girl - 4'
-    desc: '' 
-    src: '/images/illustrations/4.jpg'
-    thumb: '/images/illustrations/4.thumb.jpg'
-  - title: 'when i was a girl - 5'
-    desc: '' 
-    src: '/images/illustrations/5.jpg'
-    thumb: '/images/illustrations/5.thumb.jpg'
-  - title: 'WAIT IN LINE'
-    desc: 'Doodle' 
-    src: '/images/illustrations/6.jpg'
-    thumb: '/images/illustrations/6.thumb.jpg'
+    src: '/images/illustrations/thesis/36year.jpg' 
   - title: UX girl
     desc:  
     src: '/images/illustrations/workgirl.png'
@@ -71,7 +48,34 @@ projects:
     desc: Art 
     src: '/images/illustrations/google-6.png'
     thumb: '/images/illustrations/google.thumb6.png'
-
+    
+  - title:  when i was a girl - 1
+    desc: A mom meet 15 years old herself in her dream
+    src: '/images/illustrations/1.jpg'
+    thumb: '/images/illustrations/1.thumb.jpg'
+  - title: 'when i was a girl - 2'
+    desc: '' 
+    src: '/images/illustrations/2.jpg'
+    thumb: '/images/illustrations/2.thumb.jpg'
+  - title: 'when i was a girl - 3'
+    desc: '' 
+    src: '/images/illustrations/3.jpg'
+    thumb: '/images/illustrations/3.thumb.jpg'
+  - title: 'when i was a girl - 4'
+    desc: '' 
+    src: '/images/illustrations/4.jpg'
+    thumb: '/images/illustrations/4.thumb.jpg'
+  - title: 'when i was a girl - 5'
+    desc: '' 
+    src: '/images/illustrations/5.jpg'
+    thumb: '/images/illustrations/5.thumb.jpg'
+  - title: 'WAIT IN LINE'
+    desc: 'Doodle' 
+    src: '/images/illustrations/6.jpg'
+    thumb: '/images/illustrations/6.thumb.jpg'
+  - title: 'Sleeping Cat'
+    desc: '' 
+    src: '/images/illustrations/9.gif' 
   - title:  
     src: '/images/illustrations/12.png'
     thumb: '/images/illustrations/12.thumb.jpg'
@@ -82,9 +86,6 @@ projects:
   - title: ''
     desc: 'Copying Painting Practice <br> iPad, Procreate ' 
     src: '/images/illustrations/14doodle.jpg'
-  - title: 'Sleeping Cat'
-    desc: '' 
-    src: '/images/illustrations/9.gif' 
   - title: 'WHERE ARE YOU'
     desc: '' 
     src: '/images/illustrations/7.jpg'
