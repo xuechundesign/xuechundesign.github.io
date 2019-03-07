@@ -1,22 +1,26 @@
 projects:
 
-  - title:  Thesis character
+  - title:  Thesis character 1
     desc: 
     src: '/images/illustrations/thesis/5year.jpg'
     thumb: '/images/illustrations/thesis/5year-thumb.jpg'
-  - title:  Thesis character
+  - title:  Thesis character 2
     desc: 
-    src: '/images/illustrations/thesis/17year.jpg'
-  - title:  Thesis character
+    src: '/images/illustrations/thesis/15year.jpg'
+ 
+  - title:  Thesis character 3
+    desc: 
+    src: '/images/illustrations/thesis/18year.jpg'
+  - title:  Thesis character 4
     desc: 
     src: '/images/illustrations/thesis/21year.jpg'
-  - title:  Thesis character
+  - title:  Thesis character 5
     desc: 
     src: '/images/illustrations/thesis/26year.jpg'
-  - title:  Thesis character
+  - title:  Thesis character 6
     desc: 
     src: '/images/illustrations/thesis/32year.jpg'
-  - title:  Thesis character
+  - title:  Thesis character 7
     desc: 
     src: '/images/illustrations/thesis/36year.jpg' 
   - title: UX girl
