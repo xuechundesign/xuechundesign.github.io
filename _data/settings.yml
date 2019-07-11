@@ -10,10 +10,10 @@ menu_settings:
   menu_items:
     - title: 'UI'
       url: '/'
-    - title: 'Graphic'
-      url: '/graphic'
     - title: 'Illustration'
       url: '/illustration'
+    - title: 'Graphic'
+      url: '/graphic'
     - title: 'About'
       url: '/about'
     # - title: 'Blog'
@@ -62,7 +62,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/xuechun-wu-1027/'
 
 color_settings:
   background_color: '#ffffff'
