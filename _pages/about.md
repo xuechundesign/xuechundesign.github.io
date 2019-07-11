@@ -23,7 +23,7 @@ a product/visual designer, supercharged with illustrations.
     <h4>Hi, there 👋</h4>
     <ul>
    
-Currently, I'm doing my 2019 summer internship at Yahoo! (under Version Media) as a product designer working on new features and visuals for our new [Yahoo Play](https://mobile.yahoo.com/play) app. I am also happy to be one of the holiday doodler messing up our logo on [Yahoo.com](http://yahoo.com) ;)
+Currently, I'm doing my 2019 summer internship at Yahoo! (under Version Media) as a product designer working on new features and visuals for our new <a href="https://mobile.yahoo.com/play">Yahoo Play</a> app. I am also happy to be one of the holiday doodler messing up our logo on <a href="http://yahoo.com">Yahoo.com</a> ;)
     
     <br>
     <br>
