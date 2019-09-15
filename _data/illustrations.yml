@@ -1,5 +1,19 @@
 projects:
+  # Yahoo Logos
+  - title: "Yahoo - 9.11"
+    desc: "Logo doodle for Yahoo"
+    src: '/images/illustrations/yahoo/holiday-911.png'
+  - title: "Yahoo - Labor Day"
+    desc: "Logo doodle for Yahoo"
+    src: '/images/illustrations/yahoo/holiday-laborDay.png'
+  - title: "Yahoo - NFL Kickoff"
+    desc: "Logo doodle for Yahoo"
+    src: '/images/illustrations/yahoo/holiday-NFL.png'
+  - title: "Yahoo - women equality day "
+    desc: "Logo doodle for Yahoo"
+    src: '/images/illustrations/yahoo/holiday-womenEquality.png'
 
+  # Thesis
   - title: My experience manifesto
     desc: "<a href=' https://designed.cad.rit.edu/vcdthesis/project/xuechun-wu-my-experience-manifesto?preview_id=2216&preview=true '> 👉Click here to explore more </a >"
     src: '/images/illustrations/thesis/overview.jpg'
@@ -46,7 +60,8 @@ projects:
   - title:  Thesis character 7
     desc: "<a href=' https://designed.cad.rit.edu/vcdthesis/project/xuechun-wu-my-experience-manifesto?preview_id=2216&preview=true '> 👉Click here to explore more </a >"
     src: '/images/illustrations/thesis/36year.jpg' 
-            
+
+  # Misc  
   - title: UX girl
     desc:  
     src: '/images/illustrations/workgirl.png'
@@ -71,12 +86,12 @@ projects:
     desc: Volunteering 
     src: '/images/illustrations/google-volunteering.png'
     thumb: '/images/illustrations/google.thumb5.png'
-
   - title: EVENTS CATEGORY FOR UI
     desc: Art 
     src: '/images/illustrations/google-6.png'
     thumb: '/images/illustrations/google.thumb6.png'
     
+  # When i was a girl
   - title:  when i was a girl - 1
     desc: A mom meet 15 years old herself in her dream
     src: '/images/illustrations/1.jpg'
@@ -97,6 +112,8 @@ projects:
     desc: '' 
     src: '/images/illustrations/5.jpg'
     thumb: '/images/illustrations/5.thumb.jpg'
+  
+  # Misc
   - title: 'WAIT IN LINE'
     desc: 'Doodle' 
     src: '/images/illustrations/6.jpg'
@@ -126,14 +143,14 @@ projects:
     desc: 'Copying Painting Practice' 
     src: '/images/illustrations/8.jpg'
     thumb: '/images/illustrations/8.thumb.jpg'
-  - title: 'TRAVEL PLANNING'
-    desc: '' 
-    src: '/images/illustrations/10.jpg'
-    thumb: '/images/illustrations/10.thumb.jpg'
-  - title: ''
-    desc: '2019 - 11 - 13' 
-    src: '/images/illustrations/11.jpg'
-    thumb: '/images/illustrations/11.thumb.jpg'
+  # - title: 'TRAVEL PLANNING'
+  #   desc: '' 
+  #   src: '/images/illustrations/10.jpg'
+  #   thumb: '/images/illustrations/10.thumb.jpg'
+  # - title: ''
+  #   desc: '2019 - 11 - 13' 
+  #   src: '/images/illustrations/11.jpg'
+  #   thumb: '/images/illustrations/11.thumb.jpg'
   # - title: 'FUTURE FOOD IDEATION'
   #   desc: 'Sketch' 
   #   src: '/images/illustrations/sketch1.jpg'
