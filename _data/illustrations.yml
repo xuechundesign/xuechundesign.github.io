@@ -1,4 +1,6 @@
 projects:
+
+
   # Yahoo Logos
   - title: "Yahoo - 9.11"
     desc: "Logo doodle for Yahoo"
@@ -13,6 +15,10 @@ projects:
     desc: "Logo doodle for Yahoo"
     src: '/images/illustrations/yahoo/holiday-womenEquality.png'
 
+  - title: "Summer Camp"
+    desc: "illustration: @Motion Design School / Animation: Sherry.W"
+    src: '/images/illustrations/animation/camping.gif'
+    thumb: '/images/illustrations/animation/camping_600*600.gif'
   # Thesis
   - title: My experience manifesto
     desc: "<a href=' https://designed.cad.rit.edu/vcdthesis/project/xuechun-wu-my-experience-manifesto?preview_id=2216&preview=true '> 👉Click here to explore more </a >"
