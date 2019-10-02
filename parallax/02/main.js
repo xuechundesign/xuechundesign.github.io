@@ -439,10 +439,19 @@ var motion = {
   y: 0
 };
 
+var $permit = document.querySelector("#permit");
+
+if (window.DeviceOrientationEvent && DeviceOrientationEvent.requestPermission) {
+  $permit.classList.add('visible');
+}
+
 function enableMotionControl(){
 
   // This is where we listen to the gyroscope position
   window.addEventListener('deviceorientation', function(event) {
+    // hide class
+    $permit.classList.remove('visible')
+
     // If this is the first run through here, set the initial position of the gyroscope
     if (!motion_initial.x && !motion_initial.y) {
       motion_initial.x = event.beta;
@@ -470,7 +479,7 @@ function enableMotionControl(){
       }
 
     // This is optional, but prevents things from moving too far (because these are 2d images it can look broken)
-    var max_offset = 60;
+    var max_offset = 55;
       
       // Check if magnitude of motion offset along X axis is greater than your max setting
       if (Math.abs(motion.x) > max_offset) {
@@ -501,7 +510,7 @@ function enableMotionControl(){
 
 enableMotionControl()
 
-document.querySelector("#permit").addEventListener('click', (event) => {
+$permit.addEventListener('click', (event) => {
   window.DeviceMotionEvent.requestPermission()
   .then(response => {
     if (response == 'granted') {
