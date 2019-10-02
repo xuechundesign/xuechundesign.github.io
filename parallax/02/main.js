@@ -196,6 +196,14 @@ var layer_list = [
     'opacity': 1
   },
   {
+    'image': car,
+    'src': './images/car.png',
+    'z_index': - 2.2,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
     'image': mask,
     'src': './images/mask.png',
     'z_index': 0,
@@ -223,14 +231,6 @@ var layer_list = [
     'image': datingShoe,
     'src': './images/datingShoe.png',
     'z_index': 0.6,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': car,
-    'src': './images/car.png',
-    'z_index': 0.2,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
