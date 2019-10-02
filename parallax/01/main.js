@@ -442,7 +442,7 @@ function enableMotionControl(){
       }
 
     // This is optional, but prevents things from moving too far (because these are 2d images it can look broken)
-    var max_offset = 23;
+    var max_offset = 60;
       
       // Check if magnitude of motion offset along X axis is greater than your max setting
       if (Math.abs(motion.x) > max_offset) {
