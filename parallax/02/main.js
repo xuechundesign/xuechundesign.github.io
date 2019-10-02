@@ -428,6 +428,7 @@ function endGesture() {
 
 //// MOTION CONTROLS ////
 
+
 // Initialize variables for motion-based parallax
 var motion_initial = {
   x: null,
@@ -438,58 +439,78 @@ var motion = {
   y: 0
 };
 
+function enableMotionControl(){
 
-function addDeviceMotion() {
   // This is where we listen to the gyroscope position
-  window.addEventListener('deviceorientation', function (event) {
+  window.addEventListener('deviceorientation', function(event) {
     // If this is the first run through here, set the initial position of the gyroscope
     if (!motion_initial.x && !motion_initial.y) {
       motion_initial.x = event.beta;
       motion_initial.y = event.gamma;
     }
-
+    
     // Depending on what orientation the device is in, you need to adjust what each gyroscope axis means
     // This can be a bit tricky
-    if (window.orientation === 0) {
-      // The device is right-side up in portrait orientation
-      motion.x = event.gamma - motion_initial.y;
-      motion.y = event.beta - motion_initial.x;
-    } else if (window.orientation === 90) {
-      // The device is in landscape laying on its left side
-      motion.x = event.beta - motion_initial.x;
-      motion.y = -event.gamma + motion_initial.y;
-    } else if (window.orientation === -90) {
-      // The device is in landscape laying on its right side
-      motion.x = -event.beta + motion_initial.x;
-      motion.y = event.gamma - motion_initial.y;
-    } else {
-      // The device is upside-down in portrait orientation
+      if (window.orientation === 0) {
+        // The device is right-side up in portrait orientation
+        motion.x = event.gamma - motion_initial.y;
+        motion.y = event.beta - motion_initial.x;
+      } else if (window.orientation === 90) {
+        // The device is in landscape laying on its left side
+        motion.x = event.beta - motion_initial.x;
+        motion.y = -event.gamma + motion_initial.y;
+      } else if (window.orientation === -90) {
+        // The device is in landscape laying on its right side
+        motion.x = -event.beta + motion_initial.x;
+        motion.y = event.gamma - motion_initial.y;
+      } else {
+        // The device is upside-down in portrait orientation
       motion.x = -event.gamma + motion_initial.y;
       motion.y = -event.beta + motion_initial.x;
-    }
+      }
+
+    // This is optional, but prevents things from moving too far (because these are 2d images it can look broken)
+    var max_offset = 23;
+      
+      // Check if magnitude of motion offset along X axis is greater than your max setting
+      if (Math.abs(motion.x) > max_offset) {
+        // Check whether offset is positive or negative, and make sure to keep it that way
+        if (motion.x < 0) {
+          motion.x = -max_offset;
+        } else {
+          motion.x = max_offset;
+        }
+      }
+      // Check if magnitude of motion offset along Y axis is greater than your max setting
+      if (Math.abs(motion.y) > max_offset) {
+        // Check whether offset is positive or negative, and make sure to keep it that way
+        if (motion.y < 0) {
+          motion.y = -max_offset;
+        } else {
+          motion.y = max_offset;
+        }
+      }
   });
 
   // Reset the position of motion controls when device changes between portrait and landscape, etc.
-  window.addEventListener('orientationchange', function (event) {
+  window.addEventListener('orientationchange', function(event) {
     motion_initial.x = 0;
     motion_initial.y = 0;
   });
 }
 
+enableMotionControl()
 
-// iOS 13
-  // https://medium.com/@leemartin/three-things-im-excited-about-in-safari-13-994107ac6295
-  // https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-requestpermission
-document.querySelector("#permission").addEventListener('touchstart', function(event){
-  DeviceOrientationEvent.requestPermission()
+document.querySelector("#permit").addEventListener('click', (event) => {
+  window.DeviceMotionEvent.requestPermission()
   .then(response => {
     if (response == 'granted') {
-      alert("thanks")
       // permission granted
-      addDeviceMotion()
+      enableMotionControl()
+      alert("yes")
     } else {
-      alert("no")
       // permission not granted
+      alert("no")
     }
   })
 })
