@@ -59,14 +59,6 @@ var layer_list = [
     'opacity': 1
   },
   {
-    'image': shadow,
-    'src': './images/shadow.png',
-    'z_index': -1,
-    'position': { x: 0, y: 0 },
-    'blend': 'mutiply',
-    'opacity': 0.5
-  },
-  {
     'image': holeShadow,
     'src': './images/holeShadow.png',
     'z_index': 0,
@@ -77,7 +69,7 @@ var layer_list = [
   {
     'image': pregnantDoctor,
     'src': './images/pregnantDoctor.png',
-    'z_index': -0.2,
+    'z_index': -0.8,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -114,6 +106,7 @@ var layer_list = [
     'blend': null,
     'opacity': 1
   },
+
   {
     'image': bgHead,
     'src': './images/bgHead.png',
@@ -122,6 +115,7 @@ var layer_list = [
     'blend': null,
     'opacity': 1
   },
+
   {
     'image': familyBarrier,
     'src': './images/familyBarrier.png',
