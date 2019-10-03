@@ -30,6 +30,7 @@ var pregnantScreen = new Image();
 var pregnantWoman = new Image();
 var shadow = new Image();
 var weddingBride = new Image();
+var weddingShadow = new Image();
 var weddingBridegroom = new Image();
 var weddingMountain = new Image();
 var weddingSea = new Image();
@@ -63,7 +64,7 @@ var layer_list = [
     'z_index': -1,
     'position': { x: 0, y: 0 },
     'blend': 'mutiply',
-    'opacity': 0.3
+    'opacity': 0.5
   },
   {
     'image': holeShadow,
@@ -71,7 +72,7 @@ var layer_list = [
     'z_index': 0,
     'position': { x: 0, y: 0 },
     'blend': 'mutiply',
-    'opacity': 0.8
+    'opacity': 1
   },
   {
     'image': pregnantDoctor,
@@ -98,14 +99,6 @@ var layer_list = [
     'opacity': 1
   },
   {
-    'image': cosmeticTable,
-    'src': './images/cosmeticTable.png',
-    'z_index': -1.5,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
     'image': weddingMountain,
     'src': './images/weddingMountain.png',
     'z_index': -3.4,
@@ -114,9 +107,49 @@ var layer_list = [
     'opacity': 1
   },
   {
+    'image': cosmeticTable,
+    'src': './images/cosmeticTable.png',
+    'z_index': -1,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
     'image': bgHead,
     'src': './images/bgHead.png',
     'z_index': 0,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': familyBarrier,
+    'src': './images/familyBarrier.png',
+    'z_index': 0.7,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': motorMom,
+    'src': './images/motorMom.png',
+    'z_index': 0.7,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+    {
+    'image': familyMom,
+    'src': './images/familyMom.png',
+    'z_index': 1.4,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': familyDad,
+    'src': './images/familyDad.png',
+    'z_index': 1.2,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -138,6 +171,14 @@ var layer_list = [
     'opacity': 1
   },
   {
+    'image': weddingShadow,
+    'src': './images/weddingShadow.png',
+    'z_index': -1,
+    'position': { x: 0, y: 0 },
+    'blend': 'mutiply',
+    'opacity': 0.35
+  },
+  {
     'image': weddingBridegroom,
     'src': './images/weddingBridegroom.png',
     'z_index': 1.8,
@@ -157,38 +198,6 @@ var layer_list = [
     'image': mask,
     'src': './images/mask.png',
     'z_index': 0,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': familyBarrier,
-    'src': './images/familyBarrier.png',
-    'z_index': 0.3,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': familyMom,
-    'src': './images/familyMom.png',
-    'z_index': 0.7,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': motorMom,
-    'src': './images/motorMom.png',
-    'z_index': -0.1,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': familyDad,
-    'src': './images/familyDad.png',
-    'z_index': 0.7,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
