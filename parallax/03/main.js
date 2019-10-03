@@ -51,19 +51,19 @@ var layer_list = [
     'opacity': 1
   },
   {
-    'image': hole,
-    'src': './images/hole.png',
-    'z_index': 0,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
     'image': holeShadow,
     'src': './images/holeShadow.png',
     'z_index': 0,
     'position': { x: 0, y: 0 },
     'blend': 'mutiply',
+    'opacity': 1
+  },
+  {
+    'image': hole,
+    'src': './images/hole.png',
+    'z_index': 0,
+    'position': { x: 0, y: 0 },
+    'blend': null,
     'opacity': 1
   },
   {
@@ -99,14 +99,6 @@ var layer_list = [
     'opacity': 1
   },
   {
-    'image': cosmeticTable,
-    'src': './images/cosmeticTable.png',
-    'z_index': -1,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
     'image': familyBarrier,
     'src': './images/familyBarrier.png',
     'z_index': 0.7,
@@ -134,6 +126,14 @@ var layer_list = [
     'image': familyDad,
     'src': './images/familyDad.png',
     'z_index': 1.2,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': cosmeticTable,
+    'src': './images/cosmeticTable.png',
+    'z_index': -1,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
