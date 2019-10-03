@@ -106,16 +106,6 @@ var layer_list = [
     'blend': null,
     'opacity': 1
   },
-
-  {
-    'image': bgHead,
-    'src': './images/bgHead.png',
-    'z_index': 0,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-
   {
     'image': familyBarrier,
     'src': './images/familyBarrier.png',
@@ -184,6 +174,14 @@ var layer_list = [
     'image': weddingBride,
     'src': './images/weddingBride.png',
     'z_index': 2.5,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': bgHead,
+    'src': './images/bgHead.png',
+    'z_index': 0,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
