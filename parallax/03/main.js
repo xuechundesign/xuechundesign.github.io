@@ -125,7 +125,7 @@ var layer_list = [
   {
     'image': familyDad,
     'src': './images/familyDad.png',
-    'z_index': 1.2,
+    'z_index': 1,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -133,7 +133,7 @@ var layer_list = [
   {
     'image': cosmeticTable,
     'src': './images/cosmeticTable.png',
-    'z_index': -1,
+    'z_index': -1.6,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
