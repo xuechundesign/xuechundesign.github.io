@@ -12,40 +12,38 @@ var loaded = false;
 var load_counter = 0;
 
 //Initialize images for layers
-var background = new Image();
-var allShadow = new Image();
-var car = new Image();
-var carCouple = new Image();
-var carSeat = new Image();
-var datingBoy = new Image();
-var datingGirl = new Image();
-var datingSwing = new Image();
-var datingShoe = new Image();
-var floating1 = new Image();
-var floating2 = new Image();
-var hairDryer = new Image();
+var bgColor =new Image();
+var shadow =new Image();
+var cookingBoy = new Image();
+var cookingDesk = new Image();
+var cookingMom = new Image();
+var cookingTable = new Image();
 var head = new Image();
 var hole = new Image();
-var holeShadow = new Image();
-var line = new Image();
 var mask = new Image();
-var shoppingHanger = new Image();
-var shoppingMirror = new Image();
-var shoppingSisters = new Image();
-var workBooks = new Image();
-var workComputer = new Image();
-var workIpad = new Image();
-var workKeyboard = new Image();
-var workPaper = new Image();
-var workWoman = new Image();
+var mask2 =new Image();
+var pillow = new Image();
+var pillowWoman = new Image();
+var ring = new Image();
+var ringHand = new Image();
+var stairBottom = new Image();
+var stairMan = new Image();
+var stairTop = new Image();
+var stairWoman = new Image();
+var thinkBalcony = new Image();
+var thinkWoman = new Image();
+var thinkBuilding = new Image();
+var wheelchair = new Image();
+var wheelchairMom = new Image();
 
 
 
 // Create a list of layer objects
 var layer_list = [
+
   {
-    'image': background,
-    'src': './images/bg.png',
+    'image': bgColor,
+    'src': './images/bgColor.png',
     'z_index': 0,
     'position': { x: 0, y: 0 },
     'blend': null,
@@ -56,125 +54,125 @@ var layer_list = [
     'src': './images/hole.png',
     'z_index': 0,
     'position': { x: 0, y: 0 },
-    'blend': null,
+    'blend': 'null',
     'opacity': 1
   },
   {
-    'image': allShadow,
-    'src': './images/allShadows.png',
-    'z_index': -1,
+    'image': shadow,
+    'src': './images/shadow.png',
+    'z_index': -5,
     'position': { x: 0, y: 0 },
     'blend': 'mutiply',
-    'opacity': 0.85
+    'opacity': 0.7
   },
   {
-    'image': line,
-    'src': './images/line.png',
-    'z_index': -2,
+    'image': wheelchairMom,
+    'src': './images/wheelchairMom.png',
+    'z_index': -3.5,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': floating1,
-    'src': './images/floating1.png',
-    'z_index': -2,
+    'image': wheelchair,
+    'src': './images/wheelchair.png',
+    'z_index': -3,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': floating2,
-    'src': './images/floating2.png',
-    'z_index': -1,
+    'image': pillowWoman,
+    'src': './images/pillowWoman.png',
+    'z_index': -2.3,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': shoppingMirror,
-    'src': './images/shoppingMirror.png',
-    'z_index': -1.5,
+    'image': pillow,
+    'src': './images/pillow.png',
+    'z_index': -1.8,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': shoppingSisters,
-    'src': './images/shoppingSisters.png',
-    'z_index': -0.8,
+    'image': stairBottom,
+    'src': './images/stairBottom.png',
+    'z_index': -2.8,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': datingBoy,
-    'src': './images/datingBoy.png',
-    'z_index': -1.4,
+    'image': stairWoman,
+    'src': './images/stairWoman.png',
+    'z_index': -2.3,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': datingGirl,
-    'src': './images/datingGirl.png',
-    'z_index': -1,
+    'image': stairTop,
+    'src': './images/stairTop.png',
+    'z_index': -2.9,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': datingSwing,
-    'src': './images/datingSwing.png',
-    'z_index': -0.8,
+    'image': stairMan,
+    'src': './images/stairMan.png',
+    'z_index': -2.4,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': carSeat,
-    'src': './images/carSeat.png',
+    'image': ringHand,
+    'src': './images/ringHand.png',
+    'z_index': -0.6,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': cookingBoy,
+    'src': './images/cookingBoy.png',
     'z_index': -2.5,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': carCouple,
-    'src': './images/carCouple.png',
-    'z_index': -1.28,
+    'image': cookingTable,
+    'src': './images/cookingTable.png',
+    'z_index': -2.2,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': workWoman,
-    'src': './images/workWoman.png',
-    'z_index': 0.25,
+    'image': cookingMom,
+    'src': './images/cookingMom.png',
+    'z_index': -2,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': workKeyboard,
-    'src': './images/workKeyboard.png',
-    'z_index': 0.7,
+    'image': cookingDesk,
+    'src': './images/cookingDesk.png',
+    'z_index': -1.3,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': workBooks,
-    'src': './images/workBooks.png',
-    'z_index': 0.7,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': workIpad,
-    'src': './images/workIpad.png',
-    'z_index': 1.7,
+    'image': ring,
+    'src': './images/ring.png',
+    'z_index': 1,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -188,9 +186,33 @@ var layer_list = [
     'opacity': 1
   },
   {
-    'image': shoppingHanger,
-    'src': './images/shoppingHanger.png',
-    'z_index': 0.4,
+    'image': thinkBuilding,
+    'src': './images/thinkBuilding.png',
+    'z_index': -1.5,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': thinkBalcony,
+    'src': './images/thinkBalcony.png',
+    'z_index': 0.8,
+    'position': { x: 0, y: 0 },
+    'blend': 'mutiply',
+    'opacity': 1
+  },
+  {
+    'image': mask2,
+    'src': './images/mask2.png',
+    'z_index': 0,
+    'position': { x: 0, y: 0 },
+    'blend': null,
+    'opacity': 1
+  },
+  {
+    'image': thinkWoman,
+    'src': './images/thinkWoman.png',
+    'z_index': 0.8,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -199,38 +221,6 @@ var layer_list = [
     'image': mask,
     'src': './images/mask.png',
     'z_index': 0,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': car,
-    'src': './images/car.png',
-    'z_index': 0.2,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': workComputer,
-    'src': './images/workComputer.png',
-    'z_index': 1.75,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': hairDryer,
-    'src': './images/hairDryer.png',
-    'z_index': 1.3,
-    'position': { x: 0, y: 0 },
-    'blend': null,
-    'opacity': 1
-  },
-  {
-    'image': datingShoe,
-    'src': './images/datingShoe.png',
-    'z_index': 0.6,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1

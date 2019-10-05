@@ -67,17 +67,17 @@ var layer_list = [
     'opacity': 1
   },
   {
-    'image': pregnantDoctor,
-    'src': './images/pregnantDoctor.png',
-    'z_index': -0.8,
+    'image': pregnantScreen,
+    'src': './images/pregnantScreen.png',
+    'z_index': -2,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
   },
   {
-    'image': pregnantScreen,
-    'src': './images/pregnantScreen.png',
-    'z_index': -0.1,
+    'image': pregnantDoctor,
+    'src': './images/pregnantDoctor.png',
+    'z_index': -1.8,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -85,7 +85,7 @@ var layer_list = [
   {
     'image': pregnantWoman,
     'src': './images/pregnantWoman.png',
-    'z_index': 1,
+    'z_index': -1,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -165,7 +165,7 @@ var layer_list = [
   {
     'image': weddingBridegroom,
     'src': './images/weddingBridegroom.png',
-    'z_index': 1.8,
+    'z_index': 1.2,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
@@ -173,7 +173,7 @@ var layer_list = [
   {
     'image': weddingBride,
     'src': './images/weddingBride.png',
-    'z_index': 2.5,
+    'z_index': 1.5,
     'position': { x: 0, y: 0 },
     'blend': null,
     'opacity': 1
