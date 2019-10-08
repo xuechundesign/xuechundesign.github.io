@@ -398,23 +398,33 @@ function endGesture() {
   var pointer_tween = new TWEEN.Tween(pointer).to({x: 0, y: 0}, 300).easing(TWEEN.Easing.Back.Out).start();	
 }
 
+
 //// MOTION CONTROLS ////
+
 
 // Initialize variables for motion-based parallax
 var motion_initial = {
-	x: null,
-	y: null
+  x: null,
+  y: null
 };
 var motion = {
-	x: 0,
-	y: 0
+  x: 0,
+  y: 0
 };
 
+var $permit = document.querySelector("#permit");
+
+if (window.DeviceOrientationEvent && DeviceOrientationEvent.requestPermission) {
+  $permit.classList.add('visible');
+}
 
 function enableMotionControl(){
 
   // This is where we listen to the gyroscope position
   window.addEventListener('deviceorientation', function(event) {
+    // hide class
+    $permit.classList.remove('visible')
+
     // If this is the first run through here, set the initial position of the gyroscope
     if (!motion_initial.x && !motion_initial.y) {
       motion_initial.x = event.beta;
@@ -472,3 +482,17 @@ function enableMotionControl(){
 }
 
 enableMotionControl()
+
+$permit.addEventListener('click', (event) => {
+  window.DeviceMotionEvent.requestPermission()
+  .then(response => {
+    if (response == 'granted') {
+      // permission granted
+      enableMotionControl()
+      alert("yes")
+    } else {
+      // permission not granted
+      alert("no")
+    }
+  })
+})
