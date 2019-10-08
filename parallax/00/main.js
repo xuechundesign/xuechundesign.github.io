@@ -13,12 +13,14 @@ var load_counter = 0;
 
 //Initialize images for layers
 var bgColor =new Image();
+var shadow =new Image();
 var mask =new Image();
 var cardConfession =new Image();
 var cardDrawing = new Image();
 var cardPhoto = new Image();
 var cardPiano = new Image();
 var danceGirl1 = new Image();
+var danceGirlshadow =new Image();
 var danceGirl2 = new Image();
 var film = new Image();
 var filmSpool = new Image();
@@ -47,8 +49,16 @@ var layer_list = [
     'src': './images/hole.png',
     'z_index': 0,
     'position': { x: 0, y: 0 },
-    'blend': 'null',
+    'blend': null,
     'opacity': 1
+  },
+  {
+    'image': shadow,
+    'src': './images/shadow.png',
+    'z_index': -3.2,
+    'position': { x: 0, y: 0 },
+    'blend': 'mutiply',
+    'opacity': 0.7
   },
   {
     'image': cardConfession,
@@ -131,7 +141,14 @@ var layer_list = [
     'blend': null,
     'opacity': 1
   },
-
+  {
+    'image': danceGirlshadow,
+    'src': './images/danceGirlshadow.png',
+    'z_index': -0.7,
+    'position': { x: 0, y: 0 },
+    'blend': 'mutiply',
+    'opacity': 0.7
+  },
   {
     'image': headBG,
     'src': './images/headBG.png',
