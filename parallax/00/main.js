@@ -20,11 +20,11 @@ var cardDrawing = new Image();
 var cardPhoto = new Image();
 var cardPiano = new Image();
 var danceGirl1 = new Image();
-var danceGirlshadow =new Image();
+var danceGirlShadow =new Image();
 var danceGirl2 = new Image();
 var film = new Image();
 var filmSpool = new Image();
-var headBG =new Image();
+var headBg =new Image();
 var hideBoy = new Image();
 var hideGirl = new Image();
 var hole = new Image();
@@ -142,16 +142,16 @@ var layer_list = [
     'opacity': 1
   },
   {
-    'image': danceGirlshadow,
-    'src': './images/danceGirlshadow.png',
+    'image': danceGirlShadow,
+    'src': './images/danceGirlShadow.png',
     'z_index': -0.7,
     'position': { x: 0, y: 0 },
     'blend': 'mutiply',
     'opacity': 0.7
   },
   {
-    'image': headBG,
-    'src': './images/headBG.png',
+    'image': headBg,
+    'src': './images/headBg.png',
     'z_index': 0,
     'position': { x: 0, y: 0 },
     'blend': null,
